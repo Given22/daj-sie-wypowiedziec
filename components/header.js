@@ -1,14 +1,19 @@
-import react from "react";
+import react, { useState } from "react";
 
-import { StyleSheet, Text, View, Button, ScrollView } from 'react-native';
-import { TouchableOpacity } from "react-native-gesture-handler";
+import { StyleSheet, Text, View, Button, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 
 import { AntDesign } from '@expo/vector-icons'; 
 
-export default function Header({ text }) {
+import NoCard from "./noCard";
+import Card from "./card";
+
+export default function Header() {
+  const [text, setText] = useState()
+
+  const [cards, setCards] = useState([{name: 'test'}, {name: 'good morning'}, {}])
 
   const pressHandler = () => {
-    console.log('pressed');
+    setText('lorem')
   }
 
   return (
@@ -18,12 +23,21 @@ export default function Header({ text }) {
           <Text style={styles.sentence}>{text}</Text>
         </ScrollView>
       </View>
-      <View style={styles.headerButtonContent}>   
         <TouchableOpacity onPress={pressHandler}>
-          <View style={styles.headerButton}>
-            <AntDesign style={styles.icon} name="caretright" size={20} color="black" />
+          <View style={styles.headerButtonContent}>   
+              <View style={styles.headerButton}>
+                <AntDesign style={styles.icon} name="caretright" size={20} color="black" />
+              </View>
           </View>
         </TouchableOpacity>
+      <View style={styles.cardContener}>
+        <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} horizontal>
+          {cards.map((card) => (
+            <View>
+              {card.name ? <Card text={card.name} /> : <NoCard />}
+            </View>
+          ))}
+        </ScrollView>
       </View>
     </View>
   );
@@ -63,10 +77,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   headerButtonContent: {
-    marginTop: 15,
+    marginTop: 10,
     alignItems: 'center',
   },
   icon: {
     color: '#EAF4F4',
+  },
+  cardContener: {
+    flexDirection: 'row',
+    marginTop: 10,
+    marginLeft: 32,
+    marginBottom: 15,
   }
 });

@@ -4,11 +4,13 @@ import { StyleSheet, Text, View, Button, ScrollView } from 'react-native';
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 import Header from "../components/header";
+import Last from "../components/last";
 
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Header text='lorem'/>
+      <Last />
     </View>
   );
 }

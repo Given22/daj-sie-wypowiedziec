@@ -10,22 +10,31 @@ import HomeScreen from './screens/homeScreen';
 import FirstScreen from './screens/firstScreen';
 import GameScreen from './screens/gameScreen';
 
+import { useFonts } from 'expo-font';
+
 // const Stack = createNativeStackNavigator();
 
 const Tab = createBottomTabNavigator();
 
 export default function App() {
+
+  const [loaded] = useFonts({
+   Itim: require('./assets/fonts/Itim-Regular.ttf'),
+  });
+
+
+  if (!loaded) {
+    return null;
+  }
+
   return (
-    // <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    //   <Text>Settings!</Text>
-    // </View>
     <NavigationContainer>
       
       <Tab.Navigator 
         tabBarOptions={{
           showLabel: false,
-          }}
-          screenOptions={({ route }) => ({
+        }}
+        screenOptions={({ route }) => ({
             headerShown: false,
             tabBarStyle: {
               height: 60,
