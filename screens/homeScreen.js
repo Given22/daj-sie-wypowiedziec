@@ -12,11 +12,13 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.sentence}>John Doe lorem30 asdasd asd</Text>
           </ScrollView>
         </View>
-        <TouchableOpacity>
-          <View style={styles.headerButton}>
-            <Text style={styles.headerButtonText}>Play</Text>
-          </View>
-        </TouchableOpacity>
+        <View style={styles.headerButtonContent}>   
+          <TouchableOpacity>
+            <View style={styles.headerButton}>
+              <Text style={styles.headerButtonText}>Play</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
       </View>
     </View>
   );
@@ -50,5 +52,11 @@ const styles = StyleSheet.create({
     borderColor: '#A4C3B2',
     borderStyle: 'solid',
     borderBottomWidth: 2,
+  },
+  headerButton: {
+    backgroundColor: '#6B9080',
+    borderRadius: 8,
+    width: "50%",
+    justifyContent: 'center',
   },
 });
