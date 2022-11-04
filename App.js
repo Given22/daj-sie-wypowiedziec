@@ -28,6 +28,7 @@ export default function App() {
           screenOptions={({ route }) => ({
             headerShown: false,
             tabBarStyle: {
+              display: 'flex',
               height: 60,
               backgroundColor: '#A4C3B2',
               position: 'absolute',
@@ -36,7 +37,7 @@ export default function App() {
               borderTopRightRadius: 20,
           },
         })}
-        initialRouteName="Home"
+        initialRouteName="Game"
       >
         <Tab.Screen options={{headerShown: false}}  name="First" component={FirstScreen} />
         <Tab.Screen options={{headerShown: false}}  name="Home" component={HomeScreen} />
