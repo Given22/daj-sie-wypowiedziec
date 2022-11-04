@@ -45,7 +45,7 @@ export default function App() {
               borderTopRightRadius: 20,
           },
         })}
-        initialRouteName="Home"
+        initialRouteName="Game"
       >
         <Tab.Screen options={{headerShown: false}}  name="First" component={FirstScreen} />
         <Tab.Screen options={{headerShown: false}}  name="Home" component={HomeScreen} />
