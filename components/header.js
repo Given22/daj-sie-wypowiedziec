@@ -6,11 +6,12 @@ import { AntDesign } from '@expo/vector-icons';
 
 import NoCard from "./noCard";
 import Card from "./card";
+import TrashCard from "./trashCard";
 
 import {Context} from "../context/DataContext";
 
 export default function Header() {
-  const {sentence, activeSentence, addToSentence, removeFromSentence } = useContext(Context)
+  const {sentence, activeSentence, addToSentence, removeFromSentence, removeAll } = useContext(Context)
   const [text, setText] = useState(activeSentence.map((item) => item.name).join(' '))
 
   const [cards, setCards] = useState(activeSentence)
@@ -46,12 +47,19 @@ export default function Header() {
           </View>
         </TouchableOpacity>
       <View style={styles.cardContener}>
+        {cards.length > 0 ? 
+        <View style={styles.cardList}>
+          <TouchableOpacity onPress={removeAll}>
+          <TrashCard />
+          </TouchableOpacity>
         <FlatList
         data={cards}
         renderItem={renderItem}
         horizontal={true}
         keyExtractor={item => item.id}
-      />
+        /></View>
+        : <NoCard />}
+        
       </View>
     </View>
   );
@@ -103,6 +111,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     marginTop: 15,
     marginLeft: 32,
+    marginRight: 32,
     marginBottom: 15,
+  },
+  cardList: {
+    flexDirection: 'row',
   }
 });

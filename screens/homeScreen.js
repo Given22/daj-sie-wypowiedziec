@@ -21,7 +21,7 @@ export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Header />
-      {lastCards && !searchFocus &&(
+      {(lastCards.length > 0) && !searchFocus &&(
         <Last />
       )}
       <Search onFocusHandler={onFocusHandler} />

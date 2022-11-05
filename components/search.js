@@ -10,7 +10,7 @@ import {Context} from "../context/DataContext";
 import Card from "./card";
 
 export default function Search({onFocusHandler}) {
-  const { cards, addToSentence } = useContext(Context);
+  const { cards, addToSentence, addToLast } = useContext(Context);
 
   const [search, setText] = useState('');
   const [ showCards, setShowCards ] = useState(cards);
@@ -19,6 +19,10 @@ export default function Search({onFocusHandler}) {
   const changeHandler = (val) => {
     setText(val)
     setShowCards(cards.filter((card) => (card.pl.toLowerCase()).includes(val.toLowerCase())))
+  }
+
+  const pressHandler = (id) => {
+
   }
   
   const onFocus = () => {
@@ -30,7 +34,7 @@ export default function Search({onFocusHandler}) {
   }
 
   const renderItem = ({ item }) => (
-    <TouchableOpacity onPress={() => addToSentence(item)}>
+    <TouchableOpacity onPress={() => {addToSentence(item); addToLast(item)}}>
       <Card text={item.pl} size={90} />
     </TouchableOpacity>
   );

@@ -25,12 +25,21 @@ const ContextProvider = ({ children }) => {
     setActiveSentence(activeSentence.filter((item) => item.id !== id))
   }
 
+  const addToLast = (word) => {
+    if(lastCards.includes(word)) return
+    setLastCards([...lastCards, word])
+  }
+
+  const removeAll = () => {
+    setActiveSentence([])
+  }
+
   useEffect(() => {
     setSentence(activeSentence.map((item) => item.pl).join(' '));
   }, [activeSentence])
 
   return (
-    <Context.Provider value={{ sentence, cards, activeSentence, lastCards, addToSentence, removeFromSentence }}>
+    <Context.Provider value={{ sentence, cards, activeSentence, lastCards, addToSentence, removeFromSentence, addToLast, removeAll }}>
       {children}
     </Context.Provider>
   );

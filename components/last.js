@@ -16,7 +16,7 @@ export default function Last() {
     <View style={styles.last}>
       <Text style={styles.lastText}>OSTATNIE</Text>
       <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} horizontal>
-        {lastCards.map((card) => (<Card size={80} text={card.name} />))}
+        {lastCards.map((card) => (<Card size={80} text={card.pl} />))}
       </ScrollView>
       <View style={styles.line}></View>
     </View>
