@@ -4,8 +4,7 @@ import { StyleSheet, Text, View, Button, ScrollView, Image } from "react-native"
 
 import { AntDesign } from "@expo/vector-icons"
 
-// import { data } from "./words"
-import { data } from "./test"
+import { data } from "./words"
 
 export default function Card({ text, type, color = "#FB5607", size = 60 }) {
 	const [image, setImage] = useState(
@@ -22,12 +21,12 @@ export default function Card({ text, type, color = "#FB5607", size = 60 }) {
 	const photoHeight= size * 1.4 * 2  / 3 
 	const photoWidth= size * 0.8 
 
-
-	let bColor;
+	let bColor
 
 	if (type === "rzeczownik") {
 		bColor = "#3A86FF"
 	} else if (type === "czasownik") {
+		;``
 		bColor = "#8338EC"
 	} else if (type === "przymiotnik") {
 		bColor = "#FB5607"
@@ -46,13 +45,12 @@ export default function Card({ text, type, color = "#FB5607", size = 60 }) {
 				{
 					width: width,
 					minHeight: height,
-					background: `url("../assets/img/${text}.png`,
 				},
 			]}>
 				<View style={[styles.imgContener, {height: (height*0.8)}]}>
 					<Image style={[styles.photo, {width: photoWidth, height: photoHeight}]} source={image[0]?.link} />
 				</View>
-
+			{/* <Image source={image[0]?.link} style={styles.img} /> */}
 			<View
 				style={[styles.cardFooter, { width: "100%", minHeight: footerHeight }]}>
 				<Text
@@ -66,6 +64,7 @@ export default function Card({ text, type, color = "#FB5607", size = 60 }) {
 		</View>
 	)
 }
+
 
 const styles = StyleSheet.create({
 	card: {
@@ -108,4 +107,3 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 })
-

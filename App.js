@@ -116,3 +116,4 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 12,
 	},
 })
+ //Działa
