@@ -8,6 +8,8 @@ import NoCard from "./noCard";
 import Card from "./card";
 import TrashCard from "./trashCard";
 
+import Tts from 'react-native-tts';
+
 import {Context} from "../context/DataContext";
 
 export default function Header() {
@@ -24,6 +26,7 @@ export default function Header() {
 
   const pressHandler = () => {
     console.log('pressed, tu będzie tts')
+    Tts.speak('Hello, world!');
   }
 
   const renderItem = ({ item }) => (
