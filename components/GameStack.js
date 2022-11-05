@@ -6,7 +6,9 @@ const Stack = createStackNavigator()
 //test
 export default function GameStack() {
 	return (
-		<Stack.Navigator initialRouteName='gameScreen'>
+		<Stack.Navigator initialRouteName='gameScreen' screenOptions={{
+			headerShown: false
+		}}>
 			<Stack.Screen name='gameScreen' component={GameScreen} />
 			<Stack.Screen name='Guess' component={GuessGame} />
 			<Stack.Screen name='Puzzle' component={PuzzleGame} />
