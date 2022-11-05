@@ -4,6 +4,8 @@ import { StyleSheet, Text, View, Button, ScrollView, Image } from 'react-native'
 
 import { AntDesign } from '@expo/vector-icons'; 
 
+import {data} from './words'
+
 export default function Card({text, type, color='#FB5607', size=60}) {
   
   const width = size
@@ -21,13 +23,16 @@ export default function Card({text, type, color='#FB5607', size=60}) {
     bColor = '#FB5607'
   } else if (type === 'wyrażenie') {
     bColor = '#FF006E'
-  }
+  } 
 
+  // console.log(data.filter((item) => item.pl === text)[0].link)
+
+  // const link = data.filter((item) => item.pl === text)[0].link
 
   
   return (
-    <View style={[styles.card, {width: width, minHeight: height}]}>
-      {/* <Image source={{uri: `../assets/img/${text}.png`}} /> */}
+    <View style={[styles.card, {width: width, minHeight: height, background: `url("../assets/img/${text}.png`}]}>
+      {/* <Image rsource={link} /> */}
       <View style={[styles.cardFooter, {width: '100%', minHeight: footerHeight}]}>
         <Text adjustsFontSizeToFit={true}  numberOfLines={1} style={[styles.cardText, {fontSize: fontSize}]}>{text}</Text>
       </View>
@@ -42,6 +47,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#EAF4F4',
     borderRadius: 12,
     marginBottom: 10,
+    background: 'url('
   },
   cardFooter: {
     position: 'absolute',

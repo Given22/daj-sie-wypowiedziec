@@ -50,8 +50,9 @@ const styles = StyleSheet.create({
   },
 	block: {
     width: "80%",
-    height: "20%",
+    height: "30%",
 		backgroundColor: "#A4C3B2",
+    padding: 20,
     borderRadius: 20,
 	},
 	

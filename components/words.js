@@ -1,1089 +1,1078 @@
-require("../assets/zdjecia/.png")
+// require("../assets/img/.png")
 
-const data = [
+export const data = [
     {
         pl: "ja",
         eng: "I",
-        link: require("../assets/zdjecia/ja.png"),
+        link: require("../assets/img/ja.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ty",
         eng: "you",
-        link: require("../assets/zdjecia/ty.png"),
+        link: require("../assets/img/ty.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "on",
         eng: "he",
-        link: require("../assets/zdjecia/on.png"),
+        link: require("../assets/img/on.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ona",
         eng: "she",
-        link: require("../assets/zdjecia/ona.png"),
+        link: require("../assets/img/ona.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ono",
         eng: "it",
-        link: require("../assets/zdjecia/ono.png"),
+        link: require("../assets/img/ono.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "my",
         eng: "we",
-        link: require("../assets/zdjecia/my.png"),
+        link: require("../assets/img/my.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "wy",
         eng: "you",
-        link: require("../assets/zdjecia/wy.png"),
-        rodzaj: "rzeczownik"
-    },
-    {
-        pl: "oni/one",
-        eng: "they",
-        link: require("../assets/zdjecia/oni.png"),
+        link: require("../assets/img/wy.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "mama",
         eng: "mother",
-        link: require("../assets/zdjecia/mama.png"),
+        link: require("../assets/img/mama.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "tata",
         eng: "father",
-        link: require("../assets/zdjecia/tata.png"),
+        link: require("../assets/img/tata.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "dziadek",
         eng: "grandpa",
-        link: require("../assets/zdjecia/dziadek.png"),
+        link: require("../assets/img/dziadek.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "babcia",
         eng: "grandma",
-        link: require("../assets/zdjecia/babcia.png"),
+        link: require("../assets/img/babcia.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "siostra",
         eng: "sister",
-        link: require("../assets/zdjecia/siostra.png"),
+        link: require("../assets/img/siostra.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "brat",
         eng: "brother",
-        link: require("../assets/zdjecia/brat.png"),
+        link: require("../assets/img/brat.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "elektryk",
         eng: "electrician",
-        link: require("../assets/zdjecia/elektryk.png"),
+        link: require("../assets/img/elektryk.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "policjant",
         eng: "policeman",
-        link: require("../assets/zdjecia/policjant.png"),
+        link: require("../assets/img/policjant.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "strażak",
         eng: "firefighter",
-        link: require("../assets/zdjecia/strażak.png"),
+        link: require("../assets/img/strażak.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "lekarz",
         eng: "doctor",
-        link: require("../assets/zdjecia/lekarz.png"),
+        link: require("../assets/img/lekarz.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "pielęgniarka",
         eng: "nurse",
-        link: require("../assets/zdjecia/pielęgniarka.png"),
+        link: require("../assets/img/pielęgniarka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "sprzedawca",
         eng: "salesman",
-        link: require("../assets/zdjecia/sprzedawca.png"),
+        link: require("../assets/img/sprzedawca.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "taksówkarz",
         eng: "taxi driver",
-        link: require("../assets/zdjecia/taksówkarz.png"),
+        link: require("../assets/img/taksówkarz.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "fryzjer",
         eng: "hairdresser",
-        link: require("../assets/zdjecia/fryzjer.png"),
+        link: require("../assets/img/fryzjer.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kierowca",
         eng: "driver",
-        link: require("../assets/zdjecia/kierowca.png"),
+        link: require("../assets/img/kierowca.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "listonosz",
         eng: "postman",
-        link: require("../assets/zdjecia/listonosz.png"),
+        link: require("../assets/img/listonosz.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kurier",
         eng: "deliveryman",
-        link: require("../assets/zdjecia/kurier.png"),
+        link: require("../assets/img/kurier.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "nauczyciel",
         eng: "teacher",
-        link: require("../assets/zdjecia/nauczyciel.png"),
+        link: require("../assets/img/nauczyciel.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "sąsiad",
         eng: "neighbour",
-        link: require("../assets/zdjecia/sąsiad.png"),
+        link: require("../assets/img/sąsiad.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "przyjaciel",
         eng: "friend",
-        link: require("../assets/zdjecia/przyjaciel.png"),
+        link: require("../assets/img/przyjaciel.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "tak",
         eng: "yes",
-        link: require("../assets/zdjecia/tak.png"),
+        link: require("../assets/img/tak.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "nie",
         eng: "no",
-        link: require("../assets/zdjecia/nie.png"),
+        link: require("../assets/img/nie.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "noga",
         eng: "leg",
-        link: require("../assets/zdjecia/noga.png"),
+        link: require("../assets/img/noga.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ręka",
         eng: "arm",
-        link: require("../assets/zdjecia/ręka.png"),
+        link: require("../assets/img/ręka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "głowa",
         eng: "head",
-        link: require("../assets/zdjecia/głowa.png"),
+        link: require("../assets/img/głowa.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ciało",
         eng: "body",
-        link: require("../assets/zdjecia/ciało.png"),
+        link: require("../assets/img/ciało.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "klatka piersiowa",
         eng: "chest",
-        link: require("../assets/zdjecia/klatka.png"),
+        link: require("../assets/img/klatka piersiowa.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "palec",
         eng: "finger",
-        link: require("../assets/zdjecia/palec.png"),
+        link: require("../assets/img/palec.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "oko",
         eng: "eye",
-        link: require("../assets/zdjecia/oko.png"),
+        link: require("../assets/img/oko.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "nos",
         eng: "nose",
-        link: require("../assets/zdjecia/nos.png"),
+        link: require("../assets/img/nos.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ucho",
         eng: "ear",
-        link: require("../assets/zdjecia/ucho.png"),
+        link: require("../assets/img/ucho.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "usta",
         eng: "mouth",
-        link: require("../assets/zdjecia/usta.png"),
+        link: require("../assets/img/usta.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "włosy",
         eng: "hair",
-        link: require("../assets/zdjecia/włosy.png"),
+        link: require("../assets/img/włosy.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "stopa",
         eng: "foot",
-        link: require("../assets/zdjecia/stopa.png"),
+        link: require("../assets/img/stopa.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "dłoń",
         eng: "hand",
-        link: require("../assets/zdjecia/dłoń.png"),
+        link: require("../assets/img/dłoń.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "brew",
         eng: "eyebrow",
-        link: require("../assets/zdjecia/brew.png"),
+        link: require("../assets/img/brew.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "serce",
         eng: "heart",
-        link: require("../assets/zdjecia/serce.png"),
+        link: require("../assets/img/serce.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "łokieć",
         eng: "elbow",
-        link: require("../assets/zdjecia/łokieć.png"),
+        link: require("../assets/img/łokieć.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kolano",
         eng: "knee",
-        link: require("../assets/zdjecia/kolano.png"),
+        link: require("../assets/img/kolano.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "pięta",
         eng: "heel",
-        link: require("../assets/zdjecia/pięta.png"),
+        link: require("../assets/img/pięta.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kciuk",
         eng: "thumb",
-        link: require("../assets/zdjecia/kciuk.png"),
+        link: require("../assets/img/kciuk.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "brzuch",
         eng: "belly",
-        link: require("../assets/zdjecia/brzuch.png"),
+        link: require("../assets/img/brzuch.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "telefon",
         eng: "phone",
-        link: require("../assets/zdjecia/telefon.png"),
+        link: require("../assets/img/telefon.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "komputer",
         eng: "PC",
-        link: require("../assets/zdjecia/komputer.png"),
+        link: require("../assets/img/komputer.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "laptop",
         eng: "laptop",
-        link: require("../assets/zdjecia/laptop.png"),
+        link: require("../assets/img/laptop.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ładowarka",
         eng: "charger",
-        link: require("../assets/zdjecia/ładowarka.png"),
+        link: require("../assets/img/ładowarka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "zegar",
         eng: "clock",
-        link: require("../assets/zdjecia/zegar.png"),
+        link: require("../assets/img/zegar.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "słuchawki",
         eng: "headphones",
-        link: require("../assets/zdjecia/słuchawki.png"),
+        link: require("../assets/img/słuchawki.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "telewizor",
         eng: "TV",
-        link: require("../assets/zdjecia/telewizor.png"),
+        link: require("../assets/img/telewizor.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "zegarek",
         eng: "watch",
-        link: require("../assets/zdjecia/zegarek.png"),
+        link: require("../assets/img/zegarek.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "pralka",
         eng: "washing machine",
-        link: require("../assets/zdjecia/pralka.png"),
+        link: require("../assets/img/pralka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "zmywarka",
         eng: "dishwasher",
-        link: require("../assets/zdjecia/zmywarka.png"),
+        link: require("../assets/img/zmywarka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "piekarnik",
         eng: "oven",
-        link: require("../assets/zdjecia/piekarnik.png"),
+        link: require("../assets/img/piekarnik.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "mikrofala",
         eng: "microwave",
-        link: require("../assets/zdjecia/mikrofala.png"),
+        link: require("../assets/img/mikrofala.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "czajnik",
         eng: "kettle",
-        link: require("../assets/zdjecia/czajnik.png"),
+        link: require("../assets/img/czajnik.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "lampka",
         eng: "lamp",
-        link: require("../assets/zdjecia/lampka.png"),
+        link: require("../assets/img/lampka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "latarka",
         eng: "flashlight",
-        link: require("../assets/zdjecia/latarka.png"),
+        link: require("../assets/img/latarka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "myszka",
         eng: "mouse",
-        link: require("../assets/zdjecia/myszka.png"),
+        link: require("../assets/img/myszka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "klawiatura",
         eng: "keyboard",
-        link: require("../assets/zdjecia/klawiatura.png"),
+        link: require("../assets/img/klawiatura.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ekran",
         eng: "screen",
-        link: require("../assets/zdjecia/ekran.png"),
+        link: require("../assets/img/ekran.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "odkurzacz",
         eng: "vacuum",
-        link: require("../assets/zdjecia/odkurzacz.png"),
+        link: require("../assets/img/odkurzacz.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "waga",
         eng: "scale",
-        link: require("../assets/zdjecia/waga.png"),
+        link: require("../assets/img/waga.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "maszynka do golenia",
         eng: "razor",
-        link: require("../assets/zdjecia/maszynka do golenia.png"),
+        link: require("../assets/img/maszynka do golenia.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "lodówka",
         eng: "fridge",
-        link: require("../assets/zdjecia/lodówka.png"),
+        link: require("../assets/img/lodówka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "toster",
         eng: "toaster",
-        link: require("../assets/zdjecia/toster.png"),
+        link: require("../assets/img/toster.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kuchenka",
         eng: "stove",
-        link: require("../assets/zdjecia/kuchenka.png"),
+        link: require("../assets/img/kuchenka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "samochód",
         eng: "car",
-        link: require("../assets/zdjecia/samochód.png"),
+        link: require("../assets/img/samochód.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "autobus",
         eng: "bus",
-        link: require("../assets/zdjecia/autobus.png"),
+        link: require("../assets/img/autobus.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "tramwaj",
         eng: "tram",
-        link: require("../assets/zdjecia/tramwaj.png"),
+        link: require("../assets/img/tramwaj.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "pociąg",
         eng: "train",
-        link: require("../assets/zdjecia/pociąg.png"),
+        link: require("../assets/img/pociąg.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "samolot",
         eng: "plane",
-        link: require("../assets/zdjecia/samolot.png"),
+        link: require("../assets/img/samolot.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "deska",
         eng: "skateboard",
-        link: require("../assets/zdjecia/deska.png"),
+        link: require("../assets/img/deska.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "hulajnoga",
         eng: "scooter",
-        link: require("../assets/zdjecia/hulajnoga.png"),
+        link: require("../assets/img/hulajnoga.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "rower",
         eng: "bicycle",
-        link: require("../assets/zdjecia/rower.png"),
+        link: require("../assets/img/rower.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "helikopter",
         eng: "helicopter",
-        link: require("../assets/zdjecia/helikopter.png"),
+        link: require("../assets/img/helikopter.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "prom",
         eng: "ferry",
-        link: require("../assets/zdjecia/prom.png"),
+        link: require("../assets/img/prom.png"),
         rodzaj: "rzeczownik"
-    },
-    {
-        pl: "börek",
-        eng: "börek",
-        link: require("../assets/zdjecia/börek.png"),
     },
     {
         pl: "piwo",
         eng: "beer",
-        link: require("../assets/zdjecia/piwo.png"),
+        link: require("../assets/img/piwo.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "alkohol",
         eng: "alcohol",
-        link: require("../assets/zdjecia/alkohol.png"),
+        link: require("../assets/img/alkohol.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "chleb",
         eng: "bread",
-        link: require("../assets/zdjecia/chleb.png"),
+        link: require("../assets/img/chleb.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "masło",
         eng: "butter",
-        link: require("../assets/zdjecia/masło.png"),
+        link: require("../assets/img/masło.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "parówki",
         eng: "sausages",
-        link: require("../assets/zdjecia/parówki.png"),
+        link: require("../assets/img/parówki.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "keczup",
         eng: "ketchup",
-        link: require("../assets/zdjecia/keczup.png"),
+        link: require("../assets/img/keczup.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ser",
         eng: "cheese",
-        link: require("../assets/zdjecia/ser.png"),
+        link: require("../assets/img/ser.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "woda",
         eng: "water",
-        link: require("../assets/zdjecia/woda.png"),
+        link: require("../assets/img/woda.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "sok",
         eng: "juice",
-        link: require("../assets/zdjecia/sok.png"),
+        link: require("../assets/img/sok.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "mięso",
         eng: "meat",
-        link: require("../assets/zdjecia/mięso.png"),
+        link: require("../assets/img/mięso.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kawa",
         eng: "coffee",
-        link: require("../assets/zdjecia/kawa.png"),
+        link: require("../assets/img/kawa.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "napoje gazowane",
         eng: "carbonated drinks",
-        link: require("../assets/zdjecia/napoje gazowane.png"),
+        link: require("../assets/img/napoje gazowane.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "słodycze",
         eng: "candy",
-        link: require("../assets/zdjecia/słodycze.png"),
+        link: require("../assets/img/słodycze.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "czekolada",
         eng: "chocolate",
-        link: require("../assets/zdjecia/czekolada.png"),
+        link: require("../assets/img/czekolada.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "chipsy",
         eng: "chips",
-        link: require("../assets/zdjecia/chipsy.png"),
+        link: require("../assets/img/chipsy.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "warzywa",
         eng: "vegetables",
-        link: require("../assets/zdjecia/warzywa.png"),
+        link: require("../assets/img/warzywa.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "owoce",
         eng: "fruits",
-        link: require("../assets/zdjecia/owoce.png"),
+        link: require("../assets/img/owoce.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ryba",
         eng: "fish",
-        link: require("../assets/zdjecia/ryba.png"),
+        link: require("../assets/img/ryba.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "dom",
         eng: "house",
-        link: require("../assets/zdjecia/dom.png"),
+        link: require("../assets/img/dom.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "salon",
         eng: "living room",
-        link: require("../assets/zdjecia/salon.png"),
+        link: require("../assets/img/salon.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kuchnia",
         eng: "kitchen",
-        link: require("../assets/zdjecia/kuchnia.png"),
+        link: require("../assets/img/kuchnia.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "łazienka",
         eng: "bathroom",
-        link: require("../assets/zdjecia/łazienka.png"),
+        link: require("../assets/img/łazienka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "sypialnia",
         eng: "bedroom",
-        link: require("../assets/zdjecia/sypialnia.png"),
+        link: require("../assets/img/sypialnia.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "korytarz",
         eng: "corridor",
-        link: require("../assets/zdjecia/korytarz.png"),
+        link: require("../assets/img/korytarz.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "schody",
         eng: "stairs",
-        link: require("../assets/zdjecia/schody.png"),
+        link: require("../assets/img/schody.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "piwnica",
         eng: "basement",
-        link: require("../assets/zdjecia/piwnica.png"),
+        link: require("../assets/img/piwnica.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "poddasze",
         eng: "attic",
-        link: require("../assets/zdjecia/poddasze.png"),
+        link: require("../assets/img/poddasze.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "balkon",
         eng: "balcony",
-        link: require("../assets/zdjecia/balkon.png"),
+        link: require("../assets/img/balkon.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "stół",
         eng: "table",
-        link: require("../assets/zdjecia/stół.png"),
+        link: require("../assets/img/stół.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "krzesło",
         eng: "chair",
-        link: require("../assets/zdjecia/krzesło.png"),
+        link: require("../assets/img/krzesło.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "drzwi",
         eng: "door",
-        link: require("../assets/zdjecia/drzwi.png"),
+        link: require("../assets/img/drzwi.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "okno",
         eng: "window",
-        link: require("../assets/zdjecia/okno.png"),
+        link: require("../assets/img/okno.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "szafa",
         eng: "wardrobe",
-        link: require("../assets/zdjecia/szafa.png"),
+        link: require("../assets/img/szafa.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "biurko",
         eng: "desk",
-        link: require("../assets/zdjecia/biurko.png"),
+        link: require("../assets/img/biurko.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "komoda",
         eng: "dresser",
-        link: require("../assets/zdjecia/komoda.png"),
+        link: require("../assets/img/komoda.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "łóżko",
         eng: "bed",
-        link: require("../assets/zdjecia/łóżko.png"),
+        link: require("../assets/img/łóżko.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kwadrat",
         eng: "square",
-        link: require("../assets/zdjecia/kwadrat.png"),
+        link: require("../assets/img/kwadrat.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "trójkąt",
         eng: "triangle",
-        link: require("../assets/zdjecia/trójkąt.png"),
+        link: require("../assets/img/trójkąt.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "okrąg",
         eng: "circle",
-        link: require("../assets/zdjecia/okrąg.png"),
+        link: require("../assets/img/okrąg.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "prostokąt",
         eng: "rectangle",
-        link: require("../assets/zdjecia/prostokąt.png"),
+        link: require("../assets/img/prostokąt.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "sześcian",
         eng: "cube",
-        link: require("../assets/zdjecia/sześcian.png"),
+        link: require("../assets/img/sześcian.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kula",
         eng: "sphere",
-        link: require("../assets/zdjecia/kula.png"),
+        link: require("../assets/img/kula.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "kino",
         eng: "cinema",
-        link: require("../assets/zdjecia/kino.png"),
+        link: require("../assets/img/kino.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "sklep",
         eng: "shop",
-        link: require("../assets/zdjecia/sklep.png"),
+        link: require("../assets/img/sklep.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "centrum handlowe",
         eng: "shopping mall",
-        link: require("../assets/zdjecia/centrum handlowe.png"),
+        link: require("../assets/img/centrum handlowe.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "szkoła",
         eng: "school",
-        link: require("../assets/zdjecia/szkoła.png"),
+        link: require("../assets/img/szkoła.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "przystanek",
         eng: "bus stop",
-        link: require("../assets/zdjecia/przystanek.png"),
+        link: require("../assets/img/przystanek.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "szpital",
         eng: "hospital",
-        link: require("../assets/zdjecia/szpital.png"),
+        link: require("../assets/img/szpital.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "biblioteka",
         eng: "library",
-        link: require("../assets/zdjecia/biblioteka.png"),
+        link: require("../assets/img/biblioteka.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "dworzec",
         eng: "station",
-        link: require("../assets/zdjecia/dworzec.png"),
+        link: require("../assets/img/dworzec.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "zoo",
         eng: "zoo",
-        link: require("../assets/zdjecia/zoo.png"),
+        link: require("../assets/img/zoo.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "plac zabaw",
         eng: "playground",
-        link: require("../assets/zdjecia/plac zabaw.png"),
+        link: require("../assets/img/plac zabaw.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "restauracja",
         eng: "restaurant",
-        link: require("../assets/zdjecia/restauracja.png"),
+        link: require("../assets/img/restauracja.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "basen",
         eng: "swimming pool",
-        link: require("../assets/zdjecia/basen.png"),
+        link: require("../assets/img/basen.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "las",
         eng: "forest",
-        link: require("../assets/zdjecia/las.png"),
+        link: require("../assets/img/las.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "ulica",
         eng: "street",
-        link: require("../assets/zdjecia/ulica.png"),
+        link: require("../assets/img/ulica.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "poczta",
         eng: "post office",
-        link: require("../assets/zdjecia/poczta.png"),
+        link: require("../assets/img/poczta.png"),
         rodzaj: "rzeczownik"
     },
     {
         pl: "pomogę",
         eng: "help",
-        link: require("../assets/zdjecia/pomogę.png"),
+        link: require("../assets/img/pomogę.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "chcę",
         eng: "want",
-        link: require("../assets/zdjecia/chcę.png"),
+        link: require("../assets/img/chcę.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "proszę",
         eng: "please",
-        link: require("../assets/zdjecia/proszę.png"),
+        link: require("../assets/img/proszę.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "dziękuje",
         eng: "thank",
-        link: require("../assets/zdjecia/dziękuje.png"),
+        link: require("../assets/img/dziękuje.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "mam",
         eng: "have",
-        link: require("../assets/zdjecia/mam.png"),
+        link: require("../assets/img/mam.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "idę do",
         eng: "go to",
-        link: require("../assets/zdjecia/idę do.png"),
+        link: require("../assets/img/idę do.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "jadę",
         eng: "drive",
-        link: require("../assets/zdjecia/jadę.png"),
+        link: require("../assets/img/jadę.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "chodzę",
         eng: "walk",
-        link: require("../assets/zdjecia/chodzę.png"),
+        link: require("../assets/img/chodzę.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "jem",
         eng: "eat",
-        link: require("../assets/zdjecia/jem.png"),
+        link: require("../assets/img/jem.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "piję",
         eng: "drink",
-        link: require("../assets/zdjecia/piję.png"),
+        link: require("../assets/img/piję.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "uczę się",
         eng: "learn",
-        link: require("../assets/zdjecia/uczę się.png"),
+        link: require("../assets/img/uczę się.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "śpię",
         eng: "sleep",
-        link: require("../assets/zdjecia/śpię.png"),
+        link: require("../assets/img/śpię.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "siedzę",
         eng: "sit",
-        link: require("../assets/zdjecia/siedzę.png"),
+        link: require("../assets/img/siedzę.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "leżę",
         eng: "lie",
-        link: require("../assets/zdjecia/leżę.png"),
+        link: require("../assets/img/leżę.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "piszę",
         eng: "write",
-        link: require("../assets/zdjecia/piszę.png"),
+        link: require("../assets/img/piszę.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "mówię",
         eng: "speak",
-        link: require("../assets/zdjecia/mówię.png"),
+        link: require("../assets/img/mówię.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "czytać",
         eng: "read",
-        link: require("../assets/zdjecia/czytać.png"),
+        link: require("../assets/img/czytać.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "oglądać",
         eng: "watch",
-        link: require("../assets/zdjecia/oglądać.png"),
+        link: require("../assets/img/oglądać.png"),
         rodzaj: "czasownik"
     },
     {
         pl: "zielony",
         eng: "green",
-        link: require("../assets/zdjecia/zielony.png"),
+        link: require("../assets/img/zielony.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "czerwony",
         eng: "red",
-        link: require("../assets/zdjecia/czerwony.png"),
+        link: require("../assets/img/czerwony.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "żółty",
         eng: "yellow",
-        link: require("../assets/zdjecia/żółty.png"),
+        link: require("../assets/img/żółty.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "niebieski",
         eng: "blue",
-        link: require("../assets/zdjecia/niebieski.png"),
+        link: require("../assets/img/niebieski.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "różowy",
         eng: "pink",
-        link: require("../assets/zdjecia/różowy.png"),
+        link: require("../assets/img/różowy.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "biały",
         eng: "white",
-        link: require("../assets/zdjecia/biały.png"),
+        link: require("../assets/img/biały.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "czarny",
         eng: "black",
-        link: require("../assets/zdjecia/czarny.png"),
+        link: require("../assets/img/czarny.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "brązowy",
         eng: "brown",
-        link: require("../assets/zdjecia/brązowy.png"),
+        link: require("../assets/img/brązowy.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "trudny",
         eng: "difficult",
-        link: require("../assets/zdjecia/trudny.png"),
+        link: require("../assets/img/trudny.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "łatwy",
         eng: "easy",
-        link: require("../assets/zdjecia/łatwy.png"),
+        link: require("../assets/img/łatwy.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "niski",
         eng: "short",
-        link: require("../assets/zdjecia/niski.png"),
+        link: require("../assets/img/niski.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "wysoki",
         eng: "tall",
-        link: require("../assets/zdjecia/wysoki.png"),
+        link: require("../assets/img/wysoki.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "gruby",
         eng: "fat",
-        link: require("../assets/zdjecia/gruby.png"),
+        link: require("../assets/img/gruby.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "chudy",
         eng: "thin",
-        link: require("../assets/zdjecia/chudy.png"),
+        link: require("../assets/img/chudy.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "prosty",
         eng: "straight",
-        link: require("../assets/zdjecia/prosty.png"),
+        link: require("../assets/img/prosty.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "krzywy",
         eng: "curved",
-        link: require("../assets/zdjecia/krzywy.png"),
+        link: require("../assets/img/krzywy.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "okrągły",
         eng: "round",
-        link: require("../assets/zdjecia/okrągły.png"),
+        link: require("../assets/img/okrągły.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "kwadratowy",
         eng: "square",
-        link: require("../assets/zdjecia/kwadratowy.png"),
+        link: require("../assets/img/kwadratowy.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "prostokątny",
         eng: "rectangular",
-        link: require("../assets/zdjecia/prostokątny.png"),
+        link: require("../assets/img/prostokątny.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "trójkątny",
         eng: "traingular",
-        link: require("../assets/zdjecia/trójkątny.png"),
+        link: require("../assets/img/trójkątny.png"),
         rodzaj: "przymiotnik"
     },
     {
         pl: "sześcienny",
         eng: "cubic",
-        link: require("../assets/zdjecia/sześcienny.png"),
+        link: require("../assets/img/sześcienny.png"),
         rodzaj: "przymiotnik"
     },
     {
