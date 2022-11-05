@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import arrayShuffle from 'array-shuffle';
 
 const defaultValue = {
   sentence: '',
@@ -13,7 +14,7 @@ const Data = require('../assets/words.json');
 
 const ContextProvider = ({ children }) => {
   const [sentence, setSentence] = React.useState('');
-  const [cards, setCards] = React.useState([...Data.słowa]);
+  const [cards, setCards] = React.useState([...arrayShuffle([...Data.słowa])]);
   const [activeSentence, setActiveSentence] = React.useState([]);
   const [lastCards, setLastCards] = React.useState([]);
 
