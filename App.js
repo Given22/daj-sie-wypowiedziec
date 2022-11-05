@@ -10,22 +10,15 @@ import HomeScreen from "./screens/homeScreen"
 import FirstScreen from "./screens/firstScreen"
 import GameScreen from "./screens/gameScreen"
 
-import { useFonts } from "expo-font"
-import GameStack from "./components/GameStack"
 // const Stack = createNativeStackNavigator();
 
 const Tab = createBottomTabNavigator()
 
 export default function App() {
-	const [loaded] = useFonts({
-		Itim: require("./assets/fonts/Itim-Regular.ttf"),
-	})
-
-	if (!loaded) {
-		return null
-	}
-
 	return (
+		// <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+		//   <Text>Settings!</Text>
+		// </View>
 		<NavigationContainer>
 			<Tab.Navigator
 				tabBarOptions={{
@@ -56,7 +49,7 @@ export default function App() {
 				<Tab.Screen
 					options={{ headerShown: false }}
 					name='Game'
-					component={GameStack}
+					component={GameScreen}
 				/>
 			</Tab.Navigator>
 		</NavigationContainer>
