@@ -83,7 +83,8 @@ export default function GuessGame() {
 				onPress={() => {
 					checkAnswer(ans)
 				}}>
-				<Text>{ans}</Text>
+				<Text style={{color: "#6B9080",
+		fontFamily: "Itim", fontSize: 24}}>{ans}</Text>
 			</TouchableOpacity>
 		)
 	})
