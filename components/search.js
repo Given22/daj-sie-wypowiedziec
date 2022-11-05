@@ -1,19 +1,28 @@
-import react, {useState} from "react";
+import react, {useState, useContext} from "react";
 
-import { StyleSheet, Text, View, Button, ScrollView, Image, FlatList } from 'react-native';
+import { StyleSheet, Text, View, Button, ScrollView, Image, FlatList, TouchableOpacity } from 'react-native';
 
 import { AntDesign } from '@expo/vector-icons'; 
 import { TextInput } from "react-native-gesture-handler";
 
+import {Context} from "../context/DataContext";
+
 import Card from "./card";
 
-export default function Search({onFocusHandler, cardsData}) {
+export default function Search({onFocusHandler}) {
+  const { cards, addToSentence, addToLast } = useContext(Context);
+
   const [search, setText] = useState('');
-  const [cards, setCards] = useState(cardsData)
+  const [ showCards, setShowCards ] = useState(cards);
+
 
   const changeHandler = (val) => {
     setText(val)
-    setCards(cardsData.filter((card) => card.name.includes(val)))
+    setShowCards(cards.filter((card) => (card.pl.toLowerCase()).includes(val.toLowerCase())))
+  }
+
+  const pressHandler = (id) => {
+
   }
   
   const onFocus = () => {
@@ -25,11 +34,13 @@ export default function Search({onFocusHandler, cardsData}) {
   }
 
   const renderItem = ({ item }) => (
-    <Card text={item.name} size={90} />
+    <TouchableOpacity onPress={() => {addToSentence(item); addToLast(item)}}>
+      <Card text={item.pl} size={90} />
+    </TouchableOpacity>
   );
 
   return (
-    <View style={styles.main}>  
+    <View style={styles.main}>
       <TextInput
         style={styles.input}
         onChangeText={changeHandler}
@@ -38,15 +49,18 @@ export default function Search({onFocusHandler, cardsData}) {
         onSubmitEditing={offFocus}
         placeholder="Wyszukaj..."
       />
+      <View style={styles.cardContener}>
+
       <FlatList
-        style={{width: '100%'}}
-        data={cards}
+        style={{width: '100%', marginBottom: 110}}
+        data={showCards}
         renderItem={renderItem}
         horizontal={false}
         numColumns={3}
-        keyExtractor={item => item.name}
+        keyExtractor={item => item.pl}
         columnWrapperStyle={{justifyContent: 'space-around'}}
-      />
+        />
+        </View>
     </View>
   );
 }
@@ -56,6 +70,7 @@ const styles = StyleSheet.create({
     paddingLeft: 32,
     paddingTop: 10,
     paddingRight: 32,
+    flex: 1,
   },
   input: {
     minHeight: 36,
