@@ -5,17 +5,19 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 
 import { AntDesign } from '@expo/vector-icons'; 
 
-export default function NoCard() {
+export default function NoCard({size=60}) {
+
+  const width = size
+  const height = size * 1.4
+
   return (
-    <View style={styles.card}>
+    <View style={[styles.card, {width: width, height: height}]}>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   card: {
-    width: 65,
-    height: 90,
     borderStyle: 'dashed',
     borderColor: '#EAF4F4',
     borderWidth: 2,

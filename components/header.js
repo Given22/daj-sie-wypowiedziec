@@ -52,6 +52,8 @@ const styles = StyleSheet.create({
   },
   headerTextContent: {
     padding: 30,
+    paddingBottom: 20,
+    paddingTop: 45,
     marginLeft: 32,
     marginRight: 32,
     backgroundColor: '#EAF4F4',
@@ -59,7 +61,7 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 20,
   },
   sentence: {
-    fontSize: 24,
+    fontSize: 20,
     color: '#6B9080',
     minWidth: "100%",
   },
@@ -77,7 +79,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   headerButtonContent: {
-    marginTop: 10,
+    marginTop: 15,
     alignItems: 'center',
   },
   icon: {
@@ -85,7 +87,7 @@ const styles = StyleSheet.create({
   },
   cardContener: {
     flexDirection: 'row',
-    marginTop: 10,
+    marginTop: 15,
     marginLeft: 32,
     marginBottom: 15,
   }
