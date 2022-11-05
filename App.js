@@ -65,34 +65,6 @@ export default function App() {
 		</NavigationContainer>
 	)}
 
-//   return (
-//     <NavigationContainer>
-      
-//       <Tab.Navigator 
-//         tabBarOptions={{
-//           showLabel: false,
-//           }}
-//           screenOptions={({ route }) => ({
-//             headerShown: false,
-//             tabBarStyle: {
-//               height: 60,
-//               backgroundColor: '#A4C3B2',
-//               position: 'absolute',
-//               borderTopWidth: 0,
-//               borderTopLeftRadius: 20,
-//               borderTopRightRadius: 20,
-//           },
-//         })}
-//         initialRouteName="Game"
-//       >
-//         <Tab.Screen options={{headerShown: false}}  name="First" component={FirstScreen} />
-//         <Tab.Screen options={{headerShown: false}}  name="Home" component={HomeScreen} />
-//         <Tab.Screen options={{headerShown: false}}  name="Game" component={GameScreen} />
-//       </Tab.Navigator>
-//     </NavigationContainer>
-//   );
-// }
-
 const styles = StyleSheet.create({
 	container: {
 		marginTop: StatusBar.currentHeight || 0,
