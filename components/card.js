@@ -11,9 +11,9 @@ export default function Card({text, img, color='#FB5607', size=60}) {
   const fontSize = size / 4.5
   
   return (
-    <View style={[styles.card, {width: width, height: height}]}>
+    <View style={[styles.card, {width: width, minHeight: height}]}>
       <Image source={img} style={styles.cardImg} />
-      <View style={[styles.cardFooter, {width: width}]}>
+      <View style={[styles.cardFooter, {width: '100%'}]}>
         <Text numberOfLines={1} style={[styles.cardText, {fontSize: fontSize}]}>{text}</Text>
       </View>
       <View style={[styles.cardBorder, {borderColor: color}]}></View>
@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#EAF4F4',
     borderRadius: 12,
     flex: 1,
+    marginBottom: 10,
   },
   cardFooter: {
     position: 'absolute',
