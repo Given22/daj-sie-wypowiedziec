@@ -1,11 +1,17 @@
 import react from "react"
 
-import { StyleSheet, Text, View, Button, ScrollView } from "react-native"
-import { TouchableOpacity } from "react-native-gesture-handler"
+import {
+	StyleSheet,
+	Text,
+	View,
+	Button,
+	ScrollView,
+	TouchableOpacity,
+} from "react-native"
 
-export default function Game({ name, icon }) {
+export default function Game({ name, icon, handle }) {
 	return (
-		<TouchableOpacity style={styles.game}>
+		<TouchableOpacity style={styles.game} onPress={handle}>
 			<Text style={styles.gameName}>{name}</Text>
 			{icon}
 		</TouchableOpacity>

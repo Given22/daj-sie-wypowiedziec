@@ -10,32 +10,22 @@ import HomeScreen from './screens/homeScreen';
 import FirstScreen from './screens/firstScreen';
 import GameScreen from './screens/gameScreen';
 
-import { useFonts } from 'expo-font';
-
 // const Stack = createNativeStackNavigator();
 
 const Tab = createBottomTabNavigator();
 
 export default function App() {
-
-  const [loaded] = useFonts({
-   Itim: require('./assets/fonts/Itim-Regular.ttf'),
-  });
-
-
-  if (!loaded) {
-    return null;
-  }
-
   return (
+    // <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    //   <Text>Settings!</Text>
+    // </View>
     <NavigationContainer>
       
       <Tab.Navigator 
         tabBarOptions={{
           showLabel: false,
-          keyboardHidesTabBar: true,
-        }}
-        screenOptions={({ route }) => ({
+          }}
+          screenOptions={({ route }) => ({
             headerShown: false,
             tabBarStyle: {
               height: 60,
@@ -46,7 +36,7 @@ export default function App() {
               borderTopRightRadius: 20,
           },
         })}
-        initialRouteName="Home"
+        initialRouteName="Game"
       >
         <Tab.Screen options={{headerShown: false}}  name="First" component={FirstScreen} />
         <Tab.Screen options={{headerShown: false}}  name="Home" component={HomeScreen} />

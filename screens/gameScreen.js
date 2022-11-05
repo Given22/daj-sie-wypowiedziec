@@ -1,22 +1,43 @@
-import react from "react"
+import react, { useState } from "react"
 
 import { StyleSheet, Text, View, Button } from "react-native"
 import GameHeader from "../components/GameHeader"
 import { MaterialCommunityIcons } from "@expo/vector-icons"
 import { FontAwesome } from "@expo/vector-icons"
 import Game from "../components/Game"
+import GuessGame from "../games/GuessGame"
+import PuzzleGame from "../games/PuzzleGame"
+
+import { NavigationContainer } from "@react-navigation/native"
+import { createStackNavigator } from "@react-navigation/stack"
 
 const puzzle = (
 	<MaterialCommunityIcons name='puzzle' size={70} color='#F6FFF8' />
 )
+
 const question = <FontAwesome name='question' size={70} color='#F6FFF8' />
+
 export default function GameScreen({ navigation }) {
-	return (
+	const [isPressed, setIsPressed] = useState(true)
+	const [name, setName] = useState("")
+	function handlePress(name) {
+		setName(name)
+		setIsPressed(false)
+	}
+	return isPressed ? (
 		<View style={styles.container}>
 			<GameHeader />
 			<View style={styles.flexContainer}>
-				<Game name='Zgadywanka' icon={question} />
-				<Game name='Układanka' icon={puzzle} />
+				<Game
+					name='Zgadywanka'
+					icon={question}
+					handle={() => navigation.navigate("Guess")}
+				/>
+				<Game
+					name='Układanka'
+					icon={puzzle}
+					handle={() => navigation.navigate("Puzzle")}
+				/>
 			</View>
 			<View style={styles.achievementsContainer}>
 				<Text style={styles.achievements}>Osiągnięcia</Text>
@@ -26,6 +47,10 @@ export default function GameScreen({ navigation }) {
 				<Text style={styles.trophy}>Trofea</Text>
 			</View>
 		</View>
+	) : name === "zgadywanka" ? (
+		<GuessGame />
+	) : (
+		<PuzzleGame />
 	)
 }
 
