@@ -11,6 +11,10 @@ export default function Search({onFocusHandler, cardsData}) {
   const [search, setText] = useState('');
   const [cards, setCards] = useState(cardsData)
 
+  const changeHandler = (val) => {
+    setText(val)
+    setCards(cardsData.filter((card) => card.name.includes(val)))
+  }
   
   const onFocus = () => {
     onFocusHandler(true)
@@ -28,7 +32,7 @@ export default function Search({onFocusHandler, cardsData}) {
     <View style={styles.main}>  
       <TextInput
         style={styles.input}
-        onChangeText={setText}
+        onChangeText={changeHandler}
         value={search}
         onPressIn={onFocus}
         onSubmitEditing={offFocus}

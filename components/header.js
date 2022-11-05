@@ -2,7 +2,7 @@ import react, { useState } from "react";
 
 import { StyleSheet, Text, View, Button, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 
-import { AntDesign, Ionicons } from '@expo/vector-icons'; 
+import { AntDesign } from '@expo/vector-icons'; 
 
 import NoCard from "./noCard";
 import Card from "./card";
