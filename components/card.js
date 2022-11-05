@@ -4,20 +4,34 @@ import { StyleSheet, Text, View, Button, ScrollView, Image } from 'react-native'
 
 import { AntDesign } from '@expo/vector-icons'; 
 
-export default function Card({text, img, color='#FB5607', size=60}) {
+export default function Card({text, type, color='#FB5607', size=60}) {
   
   const width = size
   const height = size * 1.4
   const fontSize = size / 5
   const footerHeight = size / 3
+
+  let bColor;
+
+  if (type === 'rzeczownik') {
+    bColor = '#3A86FF'
+  } else if (type === 'czasownik') {
+    bColor = '#8338EC'
+  } else if (type === 'przymiotnik') {
+    bColor = '#FB5607'
+  } else if (type === 'wyrażenie') {
+    bColor = '#FF006E'
+  }
+
+
   
   return (
     <View style={[styles.card, {width: width, minHeight: height}]}>
-      <Image source={img} style={styles.cardImg} />
+      {/* <Image source={{uri: `../assets/img/${text}.png`}} /> */}
       <View style={[styles.cardFooter, {width: '100%', minHeight: footerHeight}]}>
         <Text adjustsFontSizeToFit={true}  numberOfLines={1} style={[styles.cardText, {fontSize: fontSize}]}>{text}</Text>
       </View>
-      <View style={[styles.cardBorder, {borderColor: color}]}></View>
+      <View style={[styles.cardBorder, {borderColor: bColor}]}></View>
     </View>
   );
 }
@@ -27,7 +41,6 @@ const styles = StyleSheet.create({
     marginRight: 10,
     backgroundColor: '#EAF4F4',
     borderRadius: 12,
-    flex: 1,
     marginBottom: 10,
   },
   cardFooter: {

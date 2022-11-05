@@ -16,9 +16,9 @@ import NoCard from "./noCard"
 import Card from "./card"
 import TrashCard from "./trashCard"
 
-import * as Speech from "expo-speech"
-
 import { Context } from "../context/DataContext"
+
+import useSpeech from '../hooks/useSpeech'
 
 export default function Header() {
 	const {
@@ -40,20 +40,7 @@ export default function Header() {
 	}, [activeSentence, removeFromSentence])
 
 	const pressHandler = () => {
-		console.log("pressed, tu będzie tts")
-		//Speech.speak("Borek")
-		Speech.isSpeakingAsync().then((isSpeaking) => {
-			console.log(isSpeaking)
-			if (!isSpeaking) {
-				const toSpeak = "Borek"
-				Speech.speak("Borekkk")
-			}
-		})
-	}
-
-	const speak = () => {
-		const thingToSay = "1"
-		Speech.speak(thingToSay)
+		useSpeech(sentence)
 	}
 
 	const renderItem = ({ item }) => (
@@ -63,7 +50,7 @@ export default function Header() {
 					onPress={() => {
 						removeFromSentence(item.id)
 					}}>
-					<Card text={item.pl} />
+					<Card type={item.rodzaj} text={item.pl} />
 				</TouchableOpacity>
 			) : (
 				<NoCard />

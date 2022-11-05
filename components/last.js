@@ -10,13 +10,17 @@ import { useContext } from "react/cjs/react.development";
 import { Context } from "../context/DataContext";
 
 export default function Last() {
-  const { lastCards } = useContext(Context)
+  const { lastCards, addToSentence } = useContext(Context)
 
   return (
     <View style={styles.last}>
       <Text style={styles.lastText}>OSTATNIE</Text>
       <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} horizontal>
-        {lastCards.map((card) => (<Card size={80} text={card.pl} />))}
+        {lastCards.map((card) => (
+          <TouchableOpacity pressDuration={0} onPress={() => {addToSentence(card)}}>
+            <Card text={card.pl} type={card.rodzaj}  size={80} />
+          </TouchableOpacity>
+        ))}
       </ScrollView>
       <View style={styles.line}></View>
     </View>

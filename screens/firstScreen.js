@@ -1,14 +1,42 @@
-import react from "react";
+import react, {useState} from "react";
 
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { AntDesign } from "@expo/vector-icons"
+
+import { StyleSheet, Text, View, Button, KeyboardAvoidingView, TextInput, TouchableOpacity } from 'react-native';
+// import { TouchableOpacity } from "react-native-gesture-handler";
+
+import useSpeech from '../hooks/useSpeech'
+
 
 export default function FirstScreen({ navigation }) {
+  const [text, setText] = useState('');
+
+  const pressHandler = () => {
+		useSpeech(text)
+	}
+
   return (
     <View style={styles.container}>
-      <Text>Profile Screen</Text>
-      <Button title='go to home'onPress={() =>
-        navigation.navigate('Home')
-      }/>
+    <KeyboardAvoidingView style={styles.block}>
+      <Text>Wpisz coś Proszę</Text>
+      <TextInput
+        style={styles.input}
+        placeholder='Wpisz coś'
+        onChangeText={(val) => setText(val)}
+      />
+      <TouchableOpacity onPress={pressHandler}>
+				<View style={styles.headerButtonContent}>
+					<View style={styles.headerButton}>
+						<AntDesign
+							style={styles.icon}
+							name='caretright'
+							size={20}
+							color='black'
+						/>
+					</View>
+				</View>
+			</TouchableOpacity>
+    </KeyboardAvoidingView>
     </View>
   );
 }
@@ -16,8 +44,50 @@ export default function FirstScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#CCE3DE",
     alignItems: "center",
     justifyContent: "center",
   },
-});
+	block: {
+    width: "80%",
+    height: "20%",
+		backgroundColor: "#A4C3B2",
+    borderRadius: 20,
+	},
+	
+	headerButton: {
+		backgroundColor: "#6B9080",
+		borderRadius: 8,
+		height: 25,
+		width: 200,
+		alignItems: "center",
+		justifyContent: "center",
+	},
+	headerButtonContent: {
+		marginTop: 15,
+		alignItems: "center",
+	},
+	icon: {
+		color: "#EAF4F4",
+	},
+	cardContener: {
+		flexDirection: "row",
+		marginTop: 15,
+		marginLeft: 32,
+		marginRight: 32,
+		marginBottom: 15,
+	},
+	cardList: {
+		flexDirection: "row",
+	},
+  input: {
+    minHeight: 36,
+    borderStyle: 'solid',
+    borderColor: '#A4C3B2',
+    borderRadius: 9,
+    borderWidth: 2,
+    padding: 5,
+    paddingLeft: 15,
+    marginBottom: 15,
+  },
+})
