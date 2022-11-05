@@ -20,10 +20,6 @@ export default function Search({onFocusHandler}) {
     setText(val)
     setShowCards(cards.filter((card) => (card.pl.toLowerCase()).includes(val.toLowerCase())))
   }
-
-  const pressHandler = (id) => {
-
-  }
   
   const onFocus = () => {
     onFocusHandler(true)
@@ -34,8 +30,8 @@ export default function Search({onFocusHandler}) {
   }
 
   const renderItem = ({ item }) => (
-    <TouchableOpacity onPress={() => {addToSentence(item); addToLast(item)}}>
-      <Card text={item.pl} size={90} />
+    <TouchableOpacity pressDuration={0} onPress={() => {addToSentence(item); addToLast(item)}}>
+      <Card text={item.pl} type={item.rodzaj}  size={90} />
     </TouchableOpacity>
   );
 
@@ -55,6 +51,7 @@ export default function Search({onFocusHandler}) {
         style={{width: '100%', marginBottom: 110}}
         data={showCards}
         renderItem={renderItem}
+        maxToRenderPerBatch={5}
         horizontal={false}
         numColumns={3}
         keyExtractor={item => item.pl}
