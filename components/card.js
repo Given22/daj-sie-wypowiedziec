@@ -4,7 +4,8 @@ import { StyleSheet, Text, View, Button, ScrollView, Image } from "react-native"
 
 import { AntDesign } from "@expo/vector-icons"
 
-import { data } from "./words"
+// import { data } from "./words"
+import { data } from "./test"
 
 export default function Card({ text, type, color = "#FB5607", size = 60 }) {
 	const [image, setImage] = useState(
