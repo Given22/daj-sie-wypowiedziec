@@ -16,6 +16,12 @@ export default function Header() {
     setText('lorem')
   }
 
+  const renderItem = ({ item }) => (
+    <>
+      {item ? <Card text={item.name}/> : <NoCard />}
+    </>
+  );
+
   return (
     <View style={styles.header}>
       <View style={styles.headerTextContent}>
@@ -31,13 +37,19 @@ export default function Header() {
           </View>
         </TouchableOpacity>
       <View style={styles.cardContener}>
-        <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} horizontal>
+        {/* <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} horizontal>
           {cards.map((card) => (
             <View>
               {card.name ? <Card text={card.name} /> : <NoCard />}
             </View>
           ))}
-        </ScrollView>
+        </ScrollView> */}
+        <FlatList
+        data={cards}
+        renderItem={renderItem}
+        horizontal={true}
+        keyExtractor={item => item.name}
+      />
       </View>
     </View>
   );
