@@ -58,7 +58,7 @@ export default function App() {
 						borderTopLeftRadius: 20,
 						borderTopRightRadius: 20,
 					},
-					tabBarIcon: ({ focused, color, size }) => {
+					tabBarIcon: ({ focused }) => {
             let iconName;
 
             if (route.name === 'Home') {
@@ -67,7 +67,9 @@ export default function App() {
                 : 'home-outline';
             } else if (route.name === 'Game') {
               iconName = focused ? 'game-controller' : 'game-controller-outline';
-            }
+            }else if (route.name === 'First') {
+							iconName = focused ? 'chatbox' : 'chatbox-outline';
+						}
 
             // You can return any component that you like here!
             return createButton({iconName});

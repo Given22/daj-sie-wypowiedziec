@@ -3,7 +3,6 @@ import react, {useState} from "react";
 import { AntDesign } from "@expo/vector-icons"
 
 import { StyleSheet, Text, View, Button, KeyboardAvoidingView, TextInput, TouchableOpacity } from 'react-native';
-// import { TouchableOpacity } from "react-native-gesture-handler";
 
 import useSpeech from '../hooks/useSpeech'
 
@@ -18,13 +17,16 @@ export default function FirstScreen({ navigation }) {
   return (
     <View style={styles.container}>
     <KeyboardAvoidingView style={styles.block}>
-      <Text>Wpisz coś Proszę</Text>
+      <View style={styles.header}>
+
+      <Text style={{fontSize: 24, color: '#6B9080', width: '100%'}}>Wpisz coś a ja to powiem</Text>
       <TextInput
         style={styles.input}
         placeholder='Wpisz coś'
         onChangeText={(val) => setText(val)}
-      />
-      <TouchableOpacity onPress={pressHandler}>
+        />
+        </View>
+      <TouchableOpacity style={styles.buttonContener} onPress={pressHandler}>
 				<View style={styles.headerButtonContent}>
 					<View style={styles.headerButton}>
 						<AntDesign
@@ -50,9 +52,12 @@ const styles = StyleSheet.create({
   },
 	block: {
     width: "80%",
-    height: "30%",
+    minHeight: "30%",
 		backgroundColor: "#A4C3B2",
-    padding: 20,
+    padding: 30,
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignItems: "center",
     borderRadius: 20,
 	},
 	
@@ -83,12 +88,20 @@ const styles = StyleSheet.create({
 	},
   input: {
     minHeight: 36,
+    backgroundColor: "#EAF4F4",
     borderStyle: 'solid',
-    borderColor: '#A4C3B2',
+    borderColor: '#6B9080',
     borderRadius: 9,
     borderWidth: 2,
     padding: 5,
     paddingLeft: 15,
     marginBottom: 15,
+  },
+  buttonContener: {
+    alignItems: "center",
+    // position: "absolute",
+    width: "100%",
+    // bottom: 30,
+    justifyContent: "center",
   },
 })
