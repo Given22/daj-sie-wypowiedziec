@@ -18,7 +18,7 @@ import TrashCard from "./trashCard"
 
 import { Context } from "../context/DataContext"
 
-import useSpeech from '../hooks/useSpeech'
+import useSpeech from "../hooks/useSpeech"
 
 export default function Header() {
 	const {
@@ -40,7 +40,7 @@ export default function Header() {
 	}, [activeSentence, removeFromSentence])
 
 	const pressHandler = () => {
-		useSpeech(sentence)
+		useSpeech(sentence, { languages: "pl-PL" })
 	}
 
 	const renderItem = ({ item }) => (
@@ -97,6 +97,9 @@ export default function Header() {
 		</View>
 	)
 }
+
+
+
 
 const styles = StyleSheet.create({
 	header: {

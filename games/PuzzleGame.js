@@ -1,5 +1,5 @@
 import react, { useState } from "react"
-
+import { data } from "../components/words"
 import {
 	StyleSheet,
 	Text,

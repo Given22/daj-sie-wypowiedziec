@@ -43,10 +43,9 @@ export default function Card({ text, type, color = "#FB5607", size = 60 }) {
 				{
 					width: width,
 					minHeight: height,
-					background: `url("../assets/img/${text}.png`,
 				},
 			]}>
-			<Image source={image[0]?.link} />
+			<Image source={image[0]?.link} style={styles.img} />
 			<View
 				style={[styles.cardFooter, { width: "100%", minHeight: footerHeight }]}>
 				<Text
@@ -61,8 +60,11 @@ export default function Card({ text, type, color = "#FB5607", size = 60 }) {
 	)
 }
 
+
 const styles = StyleSheet.create({
 	card: {
+		width: 90,
+		height: 120,
 		marginRight: 10,
 		backgroundColor: "#EAF4F4",
 		borderRadius: 12,
@@ -95,5 +97,10 @@ const styles = StyleSheet.create({
 		position: "absolute",
 		width: "100%",
 		height: "100%",
+	},
+	img: {
+		width: "100%",
+		height: "100%",
+    resizeMode: 'contain'
 	},
 })

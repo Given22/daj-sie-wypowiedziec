@@ -827,7 +827,7 @@ export const data = [
         pl: "las",
         eng: "forest",
         link: require("../assets/img/las.png"),
-        rodzaj: "rzeczownik"
+        rzodzaj: "rzeczownik"
     },
     {
         pl: "ulica",
@@ -1084,85 +1084,71 @@ export const data = [
     {
         pl: "do widzenia",
         eng: "goodbye",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "hej",
         eng: "hey",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "dziękuje",
         eng: "thank you",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "przepraszam",
         eng: "I'm sorry",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "jak się czujesz",
         eng: "How do you feel?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "Która jest godzina",
         eng: "What's the time?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "Jak dojdę do...?",
         eng: "How can I get to...?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "Gdzie znajdę...?",
         eng: "Where can I find...?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "możesz mi pomóc",
         eng: "Could you help me?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "potrzebuje pomocy",
         eng: "I need help.",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "dlaczego",
         eng: "why",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "jak",
         eng: "how",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "gdzie",
         eng: "where",
-        link: "",
         rodzaj: "wyrażenie"
     },
     {
         pl: "po co",
         eng: "what for",
-        link: "",
         rodzaj: "wyrażenie"
     }
 
