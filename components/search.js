@@ -1,6 +1,6 @@
 import react, {useState} from "react";
 
-import { StyleSheet, Text, View, Button, ScrollView, Image } from 'react-native';
+import { StyleSheet, Text, View, Button, ScrollView, Image, FlatList } from 'react-native';
 
 import { AntDesign } from '@expo/vector-icons'; 
 import { TextInput } from "react-native-gesture-handler";
@@ -20,6 +20,10 @@ export default function Search({onFocusHandler, cardsData}) {
     onFocusHandler(false)
   }
 
+  const renderItem = ({ item }) => (
+    <Card text={item.name} size={90} />
+  );
+
   return (
     <View style={styles.main}>  
       <TextInput
@@ -30,9 +34,14 @@ export default function Search({onFocusHandler, cardsData}) {
         onSubmitEditing={offFocus}
         placeholder="Wyszukaj..."
       />
-      <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} row vertical>
-        {cards.map((card) => (<Card size={90} text={card.name} />))}
-      </ScrollView>
+      <FlatList
+        data={cards}
+        renderItem={renderItem}
+        horizontal={false}
+        numColumns={3}
+        keyExtractor={item => item.name}
+        columnWrapperStyle={{justifyContent: 'space-between'}}
+      />
     </View>
   );
 }

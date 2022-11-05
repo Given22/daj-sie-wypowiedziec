@@ -17,6 +17,7 @@ import GameStack from "./components/GameStack"
 const Tab = createBottomTabNavigator()
 
 export default function App() {
+<<<<<<< Updated upstream
 	return (
 		// <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 		//   <Text>Settings!</Text>
@@ -56,14 +57,39 @@ export default function App() {
 			</Tab.Navigator>
 		</NavigationContainer>
 	)
+=======
+  return (
+    <NavigationContainer>
+      
+      <Tab.Navigator 
+        tabBarOptions={{
+          showLabel: false,
+          }}
+          screenOptions={({ route }) => ({
+            headerShown: false,
+            tabBarStyle: {
+              height: 60,
+              backgroundColor: '#A4C3B2',
+              position: 'absolute',
+              borderTopWidth: 0,
+              borderTopLeftRadius: 20,
+              borderTopRightRadius: 20,
+          },
+        })}
+        initialRouteName="Game"
+      >
+        <Tab.Screen options={{headerShown: false}}  name="First" component={FirstScreen} />
+        <Tab.Screen options={{headerShown: false}}  name="Home" component={HomeScreen} />
+        <Tab.Screen options={{headerShown: false}}  name="Game" component={GameScreen} />
+      </Tab.Navigator>
+    </NavigationContainer>
+  );
+>>>>>>> Stashed changes
 }
 
 const styles = StyleSheet.create({
 	container: {
-		flex: 1,
-		backgroundColor: "#fff",
-		alignItems: "center",
-		justifyContent: "center",
+		marginTop: StatusBar.currentHeight || 0,
 	},
 	tab: {
 		backgroundColor: "red",

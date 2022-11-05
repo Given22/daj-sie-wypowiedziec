@@ -9,7 +9,7 @@ import Search from "../components/search";
 
 export default function HomeScreen({ navigation }) {
   const [lastCards, setLastCards] = useState([{name: 'test'}, {name: 'good morning'}])
-  const [cards, setCards] = useState([{name: 'test'}, {name: 'good morning'}])
+  const [cards, setCards] = useState([{name: 'test'}, {name: 'good morning'}, {name: 'good morning'}, {name: 'good morning'}])
   const [searchFocus, setSearchFocus] = useState(false);
   
   const onFocusHandler = (state) => {
