@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import react, { useState, useEffect, useContext } from "react";
 
 import { StyleSheet, Text, View, Button, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 
@@ -7,18 +7,27 @@ import { AntDesign } from '@expo/vector-icons';
 import NoCard from "./noCard";
 import Card from "./card";
 
-export default function Header() {
-  const [text, setText] = useState()
+import {Context} from "../context/DataContext";
 
-  const [cards, setCards] = useState([{name: 'test'}, {name: 'good morning'}, {}])
+export default function Header() {
+  const {sentence, activeSentence, addToSentence, removeFromSentence } = useContext(Context)
+  const [text, setText] = useState(activeSentence.map((item) => item.name).join(' '))
+
+  const [cards, setCards] = useState(activeSentence)
+
+
+  useEffect(() => {
+    setText(activeSentence.map((item) => item.name).join(' '))
+    setCards(activeSentence)
+  }, [activeSentence, removeFromSentence])
 
   const pressHandler = () => {
-    setText('lorem')
+    console.log('pressed, tu będzie tts')
   }
 
   const renderItem = ({ item }) => (
     <>
-      {item ? <Card text={item.name}/> : <NoCard />}
+      {item ? <TouchableOpacity onPress={() => {removeFromSentence(item.id)}}><Card text={item.pl}/></TouchableOpacity> : <NoCard />}
     </>
   );
 
@@ -26,7 +35,7 @@ export default function Header() {
     <View style={styles.header}>
       <View style={styles.headerTextContent}>
         <ScrollView horizontal style={styles.sentenceContener}>
-          <Text style={styles.sentence}>{text}</Text>
+          <Text style={styles.sentence}>{sentence}</Text>
         </ScrollView>
       </View>
         <TouchableOpacity onPress={pressHandler}>
@@ -37,18 +46,11 @@ export default function Header() {
           </View>
         </TouchableOpacity>
       <View style={styles.cardContener}>
-        {/* <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} horizontal>
-          {cards.map((card) => (
-            <View>
-              {card.name ? <Card text={card.name} /> : <NoCard />}
-            </View>
-          ))}
-        </ScrollView> */}
         <FlatList
         data={cards}
         renderItem={renderItem}
         horizontal={true}
-        keyExtractor={item => item.name}
+        keyExtractor={item => item.id}
       />
       </View>
     </View>

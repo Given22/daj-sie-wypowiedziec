@@ -6,16 +6,17 @@ import { AntDesign } from '@expo/vector-icons';
 
 import NoCard from "./noCard";
 import Card from "./card";
+import { useContext } from "react/cjs/react.development";
+import { Context } from "../context/DataContext";
 
-export default function Last({ cards }) {
-
-  const size = 80
+export default function Last() {
+  const { lastCards } = useContext(Context)
 
   return (
     <View style={styles.last}>
       <Text style={styles.lastText}>OSTATNIE</Text>
       <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} horizontal>
-        {cards.map((card) => (<Card size={size} text={card.name} />))}
+        {lastCards.map((card) => (<Card size={80} text={card.name} />))}
       </ScrollView>
       <View style={styles.line}></View>
     </View>

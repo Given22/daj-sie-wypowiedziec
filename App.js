@@ -16,6 +16,8 @@ import { useFonts } from "expo-font"
 import GameStack from "./components/GameStack"
 // const Stack = createNativeStackNavigator();
 
+import { ContextProvider } from "./context/DataContext"
+
 const Tab = createBottomTabNavigator()
 
 export default function App() {
@@ -39,6 +41,7 @@ export default function App() {
 	
 
 	return (
+		<ContextProvider>
 		<NavigationContainer>
 			<Tab.Navigator
 				tabBarOptions={{
@@ -88,6 +91,7 @@ export default function App() {
 				/>
 			</Tab.Navigator>
 		</NavigationContainer>
+		</ContextProvider>
 	)}
 
 const styles = StyleSheet.create({

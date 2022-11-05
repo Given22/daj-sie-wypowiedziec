@@ -1,4 +1,4 @@
-import react, {useState} from "react";
+import react, {useState, useContext} from "react";
 
 import { StyleSheet, Text, View, Button, ScrollView } from 'react-native';
 import { TouchableOpacity } from "react-native-gesture-handler";
@@ -7,10 +7,12 @@ import Header from "../components/header";
 import Last from "../components/last";
 import Search from "../components/search";
 
+import {Context} from "../context/DataContext";
+
 export default function HomeScreen({ navigation }) {
-  const [lastCards, setLastCards] = useState([{name: 'test'}, {name: 'good morning'}])
-  const [cards, setCards] = useState([{name: 'test'}, {name: 'good morning'}, {name: 'good morning'}, {name: 'good morning'}])
   const [searchFocus, setSearchFocus] = useState(false);
+
+  const { lastCards } = useContext(Context);
   
   const onFocusHandler = (state) => {
     setSearchFocus(state)
@@ -18,11 +20,11 @@ export default function HomeScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Header text='lorem'/>
+      <Header />
       {lastCards && !searchFocus &&(
-        <Last cards={lastCards} />
+        <Last />
       )}
-      <Search onFocusHandler={onFocusHandler} cardsData={cards} />
+      <Search onFocusHandler={onFocusHandler} />
     </View>
   );
 }
