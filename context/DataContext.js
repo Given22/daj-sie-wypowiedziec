@@ -13,7 +13,7 @@ const Data = require('../assets/words.json');
 
 const ContextProvider = ({ children }) => {
   const [sentence, setSentence] = React.useState('');
-  const [cards, setCards] = React.useState([...Data.wyrazenia]);
+  const [cards, setCards] = React.useState([...Data.słowa]);
   const [activeSentence, setActiveSentence] = React.useState([]);
   const [lastCards, setLastCards] = React.useState([]);
 
