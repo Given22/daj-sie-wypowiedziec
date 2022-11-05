@@ -46,7 +46,7 @@ export default function Header() {
 			console.log(isSpeaking)
 			if (!isSpeaking) {
 				const toSpeak = "Borek"
-				Speech.speak("Borek")
+				Speech.speak("Borekkk")
 			}
 		})
 	}
