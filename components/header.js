@@ -2,7 +2,7 @@ import react, { useState } from "react";
 
 import { StyleSheet, Text, View, Button, ScrollView, TouchableOpacity, FlatList } from 'react-native';
 
-import { AntDesign } from '@expo/vector-icons'; 
+import { AntDesign, Ionicons } from '@expo/vector-icons'; 
 
 import NoCard from "./noCard";
 import Card from "./card";
@@ -15,6 +15,12 @@ export default function Header() {
   const pressHandler = () => {
     setText('lorem')
   }
+
+  const renderItem = ({ item }) => (
+    <>
+      {item ? <Card text={item.name}/> : <NoCard />}
+    </>
+  );
 
   return (
     <View style={styles.header}>
@@ -31,13 +37,19 @@ export default function Header() {
           </View>
         </TouchableOpacity>
       <View style={styles.cardContener}>
-        <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} horizontal>
+        {/* <ScrollView showsVerticalScrollIndicator={false} style={styles.cardScroll} horizontal>
           {cards.map((card) => (
             <View>
               {card.name ? <Card text={card.name} /> : <NoCard />}
             </View>
           ))}
-        </ScrollView>
+        </ScrollView> */}
+        <FlatList
+        data={cards}
+        renderItem={renderItem}
+        horizontal={true}
+        keyExtractor={item => item.name}
+      />
       </View>
     </View>
   );

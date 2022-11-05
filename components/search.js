@@ -35,12 +35,13 @@ export default function Search({onFocusHandler, cardsData}) {
         placeholder="Wyszukaj..."
       />
       <FlatList
+        style={{width: '100%'}}
         data={cards}
         renderItem={renderItem}
         horizontal={false}
         numColumns={3}
         keyExtractor={item => item.name}
-        columnWrapperStyle={{justifyContent: 'space-between'}}
+        columnWrapperStyle={{justifyContent: 'space-around'}}
       />
     </View>
   );

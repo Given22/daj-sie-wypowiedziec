@@ -1,4 +1,5 @@
 import react from "react"
+import { StatusBar } from "expo-status-bar"
 
 import { StyleSheet, Text, View, Button, ScrollView } from "react-native"
 import { MaterialCommunityIcons } from "@expo/vector-icons"
@@ -27,6 +28,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		borderTopWidth: 0,
 		elevation: 8,
+		marginTop: 32,
 	},
 
 	icon: {
