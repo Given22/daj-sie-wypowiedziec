@@ -1,0 +1,1060 @@
+{
+    "słowa":[
+        {
+            "rzeczowniki":[
+                {
+                    "zaimki":[
+                        {
+                        "pl": "ja",
+                        "eng": "I",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/i-69ca1b97?id=315"
+                        },
+                        {
+                        "pl": "ty",
+                        "eng": "you",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/you-42d34ea0?id=12532"
+                        },
+                        {
+                        "pl": "on",
+                        "eng": "he",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/he-08b4a202?id=4937"
+                        },
+                        {
+                        "pl": "ona",
+                        "eng": "she",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/she-f7aace56?id=8576"
+                        },
+                        {
+                        "pl": "ono",
+                        "eng": "it",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/it-2cd6e67c?id=5419"
+                        },
+                        {
+                        "pl": "my",
+                        "eng": "we",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/us-2-69a0d724?id=11956"
+                        },
+                        {
+                        "pl": "wy",
+                        "eng": "you",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/you-7-bda5c606?id=12539"
+                        },
+                        {
+                        "pl": "oni/one",
+                        "eng": "they",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/they-1-74068874?id=9705"
+                        }
+                    ]
+                },
+                {
+                    "osoby":[
+                        {
+                            "rodzina":[
+                                {
+                                "pl": "mama",
+                                "eng": "mother",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/mother-39e391ed?id=6347"
+                                },
+                                {
+                                "pl": "tata",
+                                "eng": "father",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/father-0c8c19b2?id=3894"
+                                },
+                                {
+                                "pl": "dziadek",
+                                "eng": "grandpa",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/grandpa-6472167b?id=4611"
+                                },
+                                {
+                                "pl": "babcia",
+                                "eng": "grandma",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/grandma-19886d1c?id=4601"
+                                },
+                                {
+                                "pl": "siostra",
+                                "eng": "sister",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/sister-6b39b695?id=8801"
+                                },
+                                {
+                                "pl": "brat",
+                                "eng": "brother",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/brother-09bd68ae?id=1822"
+                                }
+                            ]
+                        },
+                        {
+                            "zawód":[
+                                {
+                                "pl": "elektryk",
+                                "eng": "electrician",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/electrician-341e0419?id=3609"
+                                },
+                                {
+                                "pl": "policjant",
+                                "eng": "policeman",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/police-2-0d2c4699?id=7470"
+                                },
+                                {
+                                "pl": "strażak",
+                                "eng": "firefighter",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/firefighter-7fba2c89?id=4008"
+                                },
+                                {
+                                "pl": "lekarz",
+                                "eng": "doctor",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/doctor-3-eb9ad1a5?id=3334"
+                                },
+                                {
+                                "pl": "pielęgniarka",
+                                "eng": "nurse",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/nurse-abafa8ce?id=6711"
+                                },
+                                {
+                                "pl": "sprzedawca",
+                                "eng": "salesman",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/cashiers-f4215113?id=2204"
+                                },
+                                {
+                                "pl": "taksówkarz",
+                                "eng": "taxi driver",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/taxi-driver-1-06c8e45f?id=9564"
+                                },
+                                {
+                                "pl": "fryzjer",
+                                "eng": "hairdresser",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/hairdresser-f4b03e4f?id=4779"
+                                },
+                                {
+                                "pl": "kierowca",
+                                "eng": "driver",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/driver-171bb7da?id=3446"
+                                },
+                                {
+                                "pl": "listonosz",
+                                "eng": "postman",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/postman-1-a3b28e6d?id=7550"
+                                },
+                                {
+                                "pl": "kurier",
+                                "eng": "deliveryman",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/deliveryman-b5ce23e8?id=3157"
+                                },
+                                {
+                                "pl": "nauczyciel",
+                                "eng": "teacher",
+                                "link": "https://www.opensymbols.org/symbols/arasaac/teacher-female-2333b1b5?id=9568"
+                                }
+                            ]
+                        },
+                        {
+                        "pl": "sąsiad",
+                        "eng": "neighbour",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/neighbour-1-5beca02e?id=6575"
+                        },
+                        {
+                        "pl": "przyjaciel",
+                        "eng": "friend",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/friends-3-74c8b0fa?id=4299"
+                        },
+                        {
+                        "pl": "tak",
+                        "eng": "yes",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/yes-2-db942643?id=12523"
+                        },
+                        {
+                        "pl": "nie",
+                        "eng": "no",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/no-1-9a228541?id=6626"
+                        }
+                    ]
+                },
+                {
+                    "części ciała":[
+                        {
+                        "pl": "noga",
+                        "eng": "leg",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/leg-2-02ee5dac?id=5688"
+                        },
+                        {
+                        "pl": "ręka",
+                        "eng": "arm",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/arm-8a4e1709?id=1018"
+                        },
+                        {
+                        "pl": "głowa",
+                        "eng": "head",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/head-f713f712?id=4940"
+                        },
+                        {
+                        "pl": "ciało",
+                        "eng": "body",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/body-60984d66?id=1637"
+                        },
+                        {
+                        "pl": "klatka piersiowa",
+                        "eng": "chest",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/chest-b6f017e7?id=2365"
+                        },
+                        {
+                        "pl": "palec",
+                        "eng": "finger",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/finger-607d5b46?id=3976"
+                        },
+                        {
+                        "pl": "oko",
+                        "eng": "eye",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/eye-0c3b539b?id=3812"
+                        },
+                        {
+                        "pl": "nos",
+                        "eng": "nose",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/nose-c2b1f433?id=6636"
+                        },
+                        {
+                        "pl": "ucho",
+                        "eng": "ear",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/ear-8711b2b4?id=3537"
+                        },
+                        {
+                        "pl": "usta",
+                        "eng": "mouth",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/mouth-30728881?id=6386"
+                        },
+                        {
+                        "pl": "włosy",
+                        "eng": "hair",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/hair-1-678282f7?id=4773"
+                        },
+                        {
+                        "pl": "stopa",
+                        "eng": "foot",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/feet-2-c3f2e621?id=3910"
+                        },
+                        {
+                        "pl": "dłoń",
+                        "eng": "hand",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/hand-1707827f?id=4822"
+                        },
+                        {
+                        "pl": "brew",
+                        "eng": "eyebrow",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/eyebrow-757d2df5?id=3813"
+                        },
+                        {
+                        "pl": "serce",
+                        "eng": "heart",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/heart-d0a32f33?id=4965"
+                        },
+                        {
+                        "pl": "łokieć",
+                        "eng": "elbow",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/elbow-883e03e1?id=13646"
+                        },
+                        {
+                        "pl": "kolano",
+                        "eng": "knee",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/knee-3f3af4a7?id=5575"
+                        },
+                        {
+                        "pl": "pięta",
+                        "eng": "heel",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/heel-07d69210?id=4974"
+                        },
+                        {
+                        "pl": "kciuk",
+                        "eng": "thumb",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/thumb-07cf40ab?id=15416"
+                        },
+                        {
+                        "pl": "brzuch",
+                        "eng": "belly",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/belly-5ffb8f27?id=1453"
+                        }
+                    ]
+                },
+                {
+                    "sprzęt elektoniczny":[
+                        {
+                        "pl": "telefon",
+                        "eng": "phone",
+                        "link": "https://www.opensymbols.org/symbols/noun-project/phone-f466a946?id=46192"
+                        },
+                        {
+                        "pl": "komputer",
+                        "eng": "PC",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/computer-6b9e5cf5?id=2720"
+                        },
+                        {
+                        "pl": "laptop",
+                        "eng": "laptop",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/laptop-computer-4fed6b39?id=5632"
+                        },
+                        {
+                        "pl": "ładowarka",
+                        "eng": "charger",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/charger-1-ce8cc6ba?id=2318"
+                        },
+                        {
+                        "pl": "zegar",
+                        "eng": "clock",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/clock-watch-5-902f9035?id=2560"
+                        },
+                        {
+                        "pl": "słuchawki",
+                        "eng": "headphones",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/headphones-b0724e9a?id=4946"
+                        },
+                        {
+                        "pl": "telewizor",
+                        "eng": "TV",
+                        "link": "https://www.opensymbols.org/symbols/twemoji/television-5f4cb115?id=48630"
+                        },
+                        {
+                        "pl": "zegarek",
+                        "eng": "watch",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/watch-ee514ee9?id=15592"
+                        },
+                        {
+                        "pl": "pralka",
+                        "eng": "washing machine",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/washing-machine-3aa79608?id=12162"
+                        },
+                        {
+                        "pl": "zmywarka",
+                        "eng": "dishwasher",
+                        "link": "https://www.opensymbols.org/symbols/sclera/dishwasher-807090d3?id=19199"
+                        },
+                        {
+                        "pl": "piekarnik",
+                        "eng": "oven",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/oven-1-9a73fa95?id=6916"
+                        },
+                        {
+                        "pl": "mikrofala",
+                        "eng": "microwave",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/microwave-ed9ee56d?id=6198"
+                        },
+                        {
+                        "pl": "czajnik",
+                        "eng": "kettle",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/kettle-66eda795?id=14368"
+                        },
+                        {
+                        "pl": "lampka",
+                        "eng": "lamp",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/lamp-a56781c4?id=5618"
+                        },
+                        {
+                        "pl": "latarka",
+                        "eng": "flashlight",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/lamp-3-ebcdd795?id=5621"
+                        },
+                        {
+                        "pl": "myszka",
+                        "eng": "mouse",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/mouse-1-37d5dbbc?id=6379"
+                        },
+                        {
+                        "pl": "klawiatura",
+                        "eng": "keyboard",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/keyboard-ee4c63f8?id=5516"
+                        },
+                        {
+                        "pl": "ekran",
+                        "eng": "screen",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/screen-b1224f19?id=8400"
+                        },
+                        {
+                        "pl": "odkurzacz",
+                        "eng": "vacuum",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/vacuum-786f3e7f?id=11969"
+                        },
+                        {
+                        "pl": "waga",
+                        "eng": "scale",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/scales-1-5912fca7?id=8354"
+                        },
+                        {
+                        "pl": "maszynka do golenia",
+                        "eng": "razor",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/razor-blade-0ffdfdc8?id=7886"
+                        },
+                        {
+                        "pl": "lodówka",
+                        "eng": "fridge",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/fridge-1-bba1ff7f?id=4276"
+                        },
+                        {
+                        "pl": "toster",
+                        "eng": "toaster",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/toaster-26ea3ad7?id=11554"
+                        },
+                        {
+                        "pl": "kuchenka",
+                        "eng": "stove",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/stove-3ff541f6?id=9248"
+                        }
+                    ]
+                },
+                {
+                    "transport":[
+                        {
+                        "pl": "samochód",
+                        "eng": "car",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/car-d3e0b775?id=2109"
+                        },
+                        {
+                        "pl": "autobus",
+                        "eng": "bus",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/bus-1-375ca2e3?id=1912"
+                        },
+                        {
+                        "pl": "tramwaj",
+                        "eng": "tram",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/tram-fa504856?id=11702"
+                        },
+                        {
+                        "pl": "pociąg",
+                        "eng": "train",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/train-988d8828?id=11695"
+                        },
+                        {
+                        "pl": "samolot",
+                        "eng": "plane",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/aeroplane-1f62bcc9?id=12673"
+                        },
+                        {
+                        "pl": "deska",
+                        "eng": "skateboard",
+                        "link": "https://www.opensymbols.org/symbols/twemoji/skateboard-a002ffc5?id=49864"
+                        },
+                        {
+                        "pl": "hulajnoga",
+                        "eng": "scooter",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/scooter-fc1c5fd3?id=8388"
+                        },
+                        {
+                        "pl": "rower",
+                        "eng": "bicycle",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/bicycle-6f57b03b?id=1474"
+                        },
+                        {
+                        "pl": "helikopter",
+                        "eng": "helicopter",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/helicopter-1-c7f4e603?id=4979"
+                        },
+                        {
+                        "pl": "prom",
+                        "eng": "ferry",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/ferry-8db7adb5?id=3921"
+                        }
+                    ]
+                },
+                {
+                    "artykuly spożywcze":[
+                        {
+                        "pl": "börek",
+                        "eng": "börek",
+                        "link": "https://www.opensymbols.org/search?q=börek"
+                        },
+                        {
+                        "pl": "piwo",
+                        "eng": "beer",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/beer-62a11b85?id=1423"
+                        },
+                        {
+                        "pl": "alkohol",
+                        "eng": "alcohol",
+                        "link": "https://www.opensymbols.org/symbols/noun-project/alcohol-f26c75a0?id=27396"
+                        },
+                        {
+                        "pl": "chleb",
+                        "eng": "bread",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/bread-68f04d0b?id=12910"
+                        },
+                        {
+                        "pl": "masło",
+                        "eng": "butter",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/butter-c87d063b?id=1939"
+                        },
+                        {
+                        "pl": "parówki",
+                        "eng": "sausages",
+                        "link": "https://www.opensymbols.org/symbols/sclera/sausages-9c4a86f8?id=24293"
+                        },
+                        {
+                        "pl": "keczup",
+                        "eng": "ketchup",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/ketchup-03fcfcdf?id=5511"
+                        },
+                        {
+                        "pl": "ser",
+                        "eng": "cheese",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/cheese-856baf65?id=2341"
+                        },
+                        {
+                        "pl": "woda",
+                        "eng": "water",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/glass-of-water-6f4af7fa?id=4496"
+                        },
+                        {
+                        "pl": "sok",
+                        "eng": "juice",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/juice-fe0ca2a9?id=5489"
+                        },
+                        {
+                        "pl": "mięso",
+                        "eng": "meat",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/meat-4bee15e2?id=6122"
+                        },
+                        {
+                        "pl": "kawa",
+                        "eng": "coffee",
+                        "link": "https://www.opensymbols.org/symbols/noun-project/coffee-c29407bf?id=30528"
+                        },
+                        {
+                        "pl": "napoje gazowane",
+                        "eng": "carbonated drinks",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/soda-bb64ec9e?id=8963"
+                        },
+                        {
+                        "pl": "słodycze",
+                        "eng": "candy",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/sweets-c4152ca6?id=9440"
+                        },
+                        {
+                        "pl": "czekolada",
+                        "eng": "chocolate",
+                        "link": "https://www.opensymbols.org/symbols/twemoji/chocolate-bar-fab2b7fa?id=47643"
+                        },
+                        {
+                        "pl": "chipsy",
+                        "eng": "chips",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/bag-of-chips-0c675269?id=1205"
+                        },
+                        {
+                        "pl": "warzywa",
+                        "eng": "vegetables",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/vegetables-12183ed3?id=11986"
+                        },
+                        {
+                        "pl": "owoce",
+                        "eng": "fruits",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/fruits-1-655bba41?id=4342"
+                        },
+                        {
+                        "pl": "ryba",
+                        "eng": "fish",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/fish-dd312592?id=13759"
+                        }
+                    ]
+                },
+                {
+                    "dom":[
+                        {
+                        "pl": "dom",
+                        "eng": "house",
+                        "link": "https://www.opensymbols.org/symbols/twemoji/house-8155e1e0?id=47855"
+                        },
+                        {
+                        "pl": "salon",
+                        "eng": "living room",
+                        "link": "https://www.opensymbols.org/symbols/sclera/living-room-af9c0e96?id=22057"
+                        },
+                        {
+                        "pl": "kuchnia",
+                        "eng": "kitchen",
+                        "link": "https://www.opensymbols.org/symbols/tawasol/kitchen-0e5aaa39?id=45275"
+                        },
+                        {
+                        "pl": "łazienka",
+                        "eng": "bathroom",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/bathroom-7-d1468926?id=1353"
+                        },
+                        {
+                        "pl": "sypialnia",
+                        "eng": "bedroom",
+                        "link": "https://www.opensymbols.org/symbols/tawasol/bedroom-3f0467d4?id=45071"
+                        },
+                        {
+                        "pl": "korytarz",
+                        "eng": "corridor",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/corridor-43271913?id=2844"
+                        },
+                        {
+                        "pl": "schody",
+                        "eng": "stairs",
+                        "link": "https://www.opensymbols.org/symbols/sclera/stairs-cee088c6?id=25204"
+                        },
+                        {
+                        "pl": "piwnica",
+                        "eng": "basement",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/basement-dfc35817?id=1312"
+                        },
+                        {
+                        "pl": "poddasze",
+                        "eng": "attic",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/attic-1-986c181f?id=1117"
+                        },
+                        {
+                        "pl": "balkon",
+                        "eng": "balcony",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/balcony-58df3673?id=1221"
+                        }
+                    ]
+                },
+                {
+                    "meble":[
+                        {
+                        "pl": "stół",
+                        "eng": "table",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/table-08118701?id=15342"
+                        },
+                        {
+                        "pl": "krzesło",
+                        "eng": "chair",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/chair-f050bd3d?id=13081"
+                        },
+                        {
+                        "pl": "drzwi",
+                        "eng": "door",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/door-ff3800f2?id=13577"
+                        },
+                        {
+                        "pl": "okno",
+                        "eng": "window",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/window-0fb35fc8?id=15639"
+                        },
+                        {
+                        "pl": "szafa",
+                        "eng": "wardrobe",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/wardrobe-bf51f576?id=12124"
+                        },
+                        {
+                        "pl": "biurko",
+                        "eng": "desk",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/work-desk-49eb6236?id=12447"
+                        },
+                        {
+                        "pl": "komoda",
+                        "eng": "dresser",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/chest-of-drawers-8c3a751b?id=2361"
+                        },
+                        {
+                        "pl": "łóżko",
+                        "eng": "bed",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/bed-a418e64d?id=1410"
+                        }
+                    ]
+                },
+                {
+                    "kształty":[
+                        {
+                        "pl": "kwadrat",
+                        "eng": "square",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/square-4f3d8cc3?id=15239"
+                        },
+                        {
+                        "pl": "trójkąt",
+                        "eng": "triangle",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/triangle-equilateral-171a9950?id=15496"
+                        },
+                        {
+                        "pl": "okrąg",
+                        "eng": "circle",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/circle-9274f34f?id=13145"
+                        },
+                        {
+                        "pl": "prostokąt",
+                        "eng": "rectangle",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/rectangle-70f56161?id=14956"
+                        },
+                        {
+                        "pl": "sześcian",
+                        "eng": "cube",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/bucket-6-2755ee0e?id=1862"
+                        },
+                        {
+                        "pl": "kula",
+                        "eng": "sphere",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/sphere-2-5ab387a2?id=9061"
+                        }
+                    ]
+                },
+                {
+                    "miejsca":[
+                        {
+                        "pl": "kino",
+                        "eng": "cinema",
+                        "link": "https://www.opensymbols.org/symbols/tawasol/cinema-39fd53d4?id=45100"
+                        },
+                        {
+                        "pl": "sklep",
+                        "eng": "shop",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/phone-shop-f2f97b87?id=7199"
+                        },
+                        {
+                        "pl": "centrum handlowe",
+                        "eng": "shopping mall",
+                        "link": "https://www.opensymbols.org/symbols/tawasol/mall-9174fc95?id=45294"
+                        },
+                        {
+                        "pl": "szkoła",
+                        "eng": "school",
+                        "link": "https://www.opensymbols.org/symbols/sclera/school-338b3d14?id=24362"
+                        },
+                        {
+                        "pl": "przystanek",
+                        "eng": "bus stop",
+                        "link": "https://www.opensymbols.org/symbols/noun-project/bus-stop-6b89f19d?id=28985"
+                        },
+                        {
+                        "pl": "szpital",
+                        "eng": "hospital",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/hospital-d4ee3821?id=5133"
+                        },
+                        {
+                        "pl": "biblioteka",
+                        "eng": "library",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/library-3-731cb20a?id=5787"
+                        },
+                        {
+                        "pl": "dworzec",
+                        "eng": "station",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/station-efc55fa4?id=9188"
+                        },
+                        {
+                        "pl": "zoo",
+                        "eng": "zoo",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/zoological-garden-019ca364?id=12568"
+                        },
+                        {
+                        "pl": "plac zabaw",
+                        "eng": "playground",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/park-58f6cbec?id=7010"
+                        },
+                        {
+                        "pl": "restauracja",
+                        "eng": "restaurant",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/restaurant-d09dd736?id=8036"
+                        },
+                        {
+                        "pl": "basen",
+                        "eng": "swimming pool",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/swimming-pool-fffb5ed6?id=9453"
+                        },
+                        {
+                        "pl": "las",
+                        "eng": "forest",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/forest-25ea8b1f?id=4223"
+                        },
+                        {
+                        "pl": "ulica",
+                        "eng": "street",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/street-8c2c1b6e?id=9267"
+                        },
+                        {
+                        "pl": "poczta",
+                        "eng": "post office",
+                        "link": "https://www.opensymbols.org/symbols/twemoji/post-office-7d9e9734?id=47859"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "czasowniki":[
+                {
+                "pl": "pomogę",
+                "ang": "help",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-help-1-a36ffcd2?id=10601"
+                },
+                {
+                "pl": "chcę",
+                "ang": "want",
+                "link": "https://www.opensymbols.org/symbols/arasaac/i-want-1cab2d66?id=314"
+                },
+                {
+                "pl": "proszę",
+                "ang": "please",
+                "link": "https://www.opensymbols.org/symbols/arasaac/please-d20d05bf?id=7416"
+                },
+                {
+                "pl": "dziękuje",
+                "ang": "thank",
+                "link": "https://www.opensymbols.org/symbols/arasaac/thanks-cdc55449?id=9657"
+                },
+                {
+                "pl": "mam",
+                "ang": "have",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-have-4-7e13bff4?id=10590"
+                },
+                {
+                "pl": "idę do",
+                "ang": "go to",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-go-594b8558?id=10541"
+                },
+                {
+                "pl": "jadę",
+                "ang": "drive",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-drive-f74f80a6?id=10315"
+                },
+                {
+                "pl": "chodzę",
+                "ang": "walk",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-walk-2-0cde640c?id=11502"
+                },
+                {
+                "pl": "jem",
+                "ang": "eat",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-eat-2-bc34e97f?id=10350"
+                },
+                {
+                "pl": "piję",
+                "ang": "drink",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-drink-2-f7f9ede6?id=44366"
+                },
+                {
+                "pl": "uczę się",
+                "ang": "learn",
+                "link": "https://www.opensymbols.org/symbols/arasaac/learn-e94b6128?id=5668"
+                },
+                {
+                "pl": "śpię",
+                "ang": "sleep",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-sleep-3-3359ecb8?id=11236"
+                },
+                {
+                "pl": "siedzę",
+                "ang": "sit",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-sit-10-283e535e?id=11220"
+                },
+                {
+                "pl": "leżę",
+                "ang": "lie",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-lie-upwards-1-0d3b7d10?id=10730"
+                },
+                {
+                "pl": "piszę",
+                "ang": "write",
+                "link": "https://www.opensymbols.org/symbols/arasaac/write-cf0fe3f7?id=12498"
+                },
+                {
+                "pl": "mówię",
+                "ang": "speak",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-speak-aa5b9f44?id=11268"
+                },
+                {
+                "pl": "czytać",
+                "ang": "read",
+                "link": "https://www.opensymbols.org/symbols/arasaac/to-read-3-56ccfffb?id=11038"
+                },
+                {
+                "pl": "oglądać",
+                "ang": "watch",
+                "link": "https://www.opensymbols.org/symbols/arasaac/watch-tv-7-d7b5b645?id=12177"
+                }
+            ]
+        },
+        {
+            "przymiotniki":[
+                {
+                    "kolory":[
+                        {
+                        "pl": "zielony",
+                        "ang": "green",
+                        "link": "https://www.opensymbols.org/symbols/noun-project/green-86d24af8?id=46771"
+                        },
+                        {
+                        "pl": "czerwony",
+                        "ang": "red",
+                        "link": "https://www.opensymbols.org/symbols/noun-project/red-ac726ee9?id=47034"
+                        },
+                        {
+                        "pl": "żółty",
+                        "ang": "yellow",
+                        "link": "https://www.opensymbols.org/symbols/noun-project/yellow-f6f3ac4b?id=47245"
+                        },
+                        {
+                        "pl": "niebieski",
+                        "ang": "blue",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/dark-blue-262eabdc?id=3084"
+                        },
+                        {
+                        "pl": "różowy",
+                        "ang": "pink",
+                        "link": "https://www.opensymbols.org/symbols/noun-project/pink-8d436b0d?id=46971"
+                        },
+                        {
+                        "pl": "biały",
+                        "ang": "white",
+                        "link": "https://www.opensymbols.org/symbols/noun-project/white-1f40d9df?id=47230"
+                        },
+                        {
+                        "pl": "czarny",
+                        "ang": "black",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/black-d2acacc3?id=1566"
+                        },
+                        {
+                        "pl": "brązowy",
+                        "ang": "brown",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/brown-788f1179?id=1825"
+                        }
+                    ]
+                },
+                {
+                "pl": "trudny",
+                "ang": "difficult",
+                "link": "https://www.opensymbols.org/symbols/arasaac/hard-b07c9807?id=4908"
+                },
+                {
+                "pl": "łatwy",
+                "ang": "easy",
+                "link": "https://www.opensymbols.org/symbols/arasaac/easy-b2b70225?id=3549"
+                },
+                {
+                "pl": "niski",
+                "ang": "short",
+                "link": "https://www.opensymbols.org/symbols/mulberry/short-97a91494?id=15130"
+                },
+                {
+                "pl": "wysoki",
+                "ang": "tall",
+                "link": "https://www.opensymbols.org/symbols/mulberry/tall-5a63a7f7?id=15354"
+                },
+                {
+                "pl": "gruby",
+                "ang": "fat",
+                "link": "https://www.opensymbols.org/symbols/mulberry/fat-b3da2164?id=13703"
+                },
+                {
+                "pl": "chudy",
+                "ang": "thin",
+                "link": "https://www.opensymbols.org/symbols/mulberry/thin-1bf37e10?id=15403"
+                },
+                {
+                    "kształt":[
+                        {
+                        "pl": "prosty",
+                        "ang": "straight",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/straight-line-ffb4454c?id=9250"
+                        },
+                        {
+                        "pl": "krzywy",
+                        "ang": "curved",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/curved-line-1ac4e309?id=3009"
+                        },
+                        {
+                        "pl": "okrągły",
+                        "ang": "round",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/circle-9274f34f?id=13145"
+                        },
+                        {
+                        "pl": "kwadratowy",
+                        "ang": "square",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/square-4f3d8cc3?id=15239"
+                        },
+                        {
+                        "pl": "prostokątny",
+                        "ang": "rectangular",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/rectangle-70f56161?id=14956"
+                        },
+                        {
+                        "pl": "trójkątny",
+                        "ang": "traingular",
+                        "link": "https://www.opensymbols.org/symbols/mulberry/triangle-equilateral-171a9950?id=15496"
+                        },
+                        {
+                        "pl": "sześcienny",
+                        "ang": "cubic",
+                        "link": "https://www.opensymbols.org/symbols/arasaac/bucket-6-2755ee0e?id=1862"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "wyrażenia":[
+                {
+                "pl": "dzień dobry",
+                "ang": "good morning",
+                "link": ""
+                },
+                {
+                "pl": "do widzenia",
+                "ang": "goodbye",
+                "link": ""
+                },
+                {
+                "pl": "hej",
+                "ang": "hey",
+                "link": ""
+                },
+                {
+                "pl": "dziękuje",
+                "ang": "thank you",
+                "link": ""
+                },
+                {
+                "pl": "przepraszam",
+                "ang": "I'm sorry",
+                "link": ""
+                },
+                {
+                "pl": "jak się czujesz",
+                "ang": "How do you feel?",
+                "link": ""
+                },
+                {
+                "pl": "Która jest godzina",
+                "ang": "What's the time?",
+                "link": ""
+                },
+                {
+                "pl": "Jak dojdę do...?",
+                "ang": "How can I get to...?",
+                "link": ""
+                },
+                {
+                "pl": "Gdzie znajdę...?",
+                "ang": "Where can I find...?",
+                "link": ""
+                },
+                {
+                "pl": "możesz mi pomóc",
+                "ang": "Could you help me?",
+                "link": ""
+                },
+                {
+                "pl": "potrzebuje pomocy",
+                "ang": "I need help.",
+                "link": ""
+                },
+                {
+                    "pytania":[
+                        {
+                        "pl": "dlaczego",
+                        "ang": "why",
+                        "link": ""
+                        },
+                        {
+                        "pl": "jak",
+                        "ang": "how",
+                        "link": ""
+                        },
+                        {
+                        "pl": "gdzie",
+                        "ang": "where",
+                        "link": ""
+                        },
+                        {
+                        "pl": "po co",
+                        "ang": "what for",
+                        "link": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
