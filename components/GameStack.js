@@ -6,10 +6,16 @@ const Stack = createStackNavigator()
 //test
 export default function GameStack() {
 	return (
-		<Stack.Navigator initialRouteName='gameScreen'>
-			<Stack.Screen name='gameScreen' component={GameScreen} />
-			<Stack.Screen name='Guess' component={GuessGame} />
-			<Stack.Screen name='Puzzle' component={PuzzleGame} />
+		<Stack.Navigator
+			initialRouteName='gameScreen'
+			options={{ headerShown: false }}>
+			<Stack.Screen
+				name='gameScreen'
+				options={{ headerShown: false }}
+				component={GameScreen}
+			/>
+			<Stack.Screen name='Zgadywanka' component={GuessGame} />
+			<Stack.Screen name='Układanka' component={PuzzleGame} />
 		</Stack.Navigator>
 	)
 }
