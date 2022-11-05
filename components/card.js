@@ -15,7 +15,7 @@ export default function Card({text, img, color='#FB5607', size=60}) {
     <View style={[styles.card, {width: width, minHeight: height}]}>
       <Image source={img} style={styles.cardImg} />
       <View style={[styles.cardFooter, {width: '100%', minHeight: footerHeight}]}>
-        <Text adjustsFontSizeToFit={true} numberOfLines={1} style={[styles.cardText, {fontSize: fontSize}]}>{text}</Text>
+        <Text adjustsFontSizeToFit={true}  numberOfLines={1} style={[styles.cardText, {fontSize: fontSize}]}>{text}</Text>
       </View>
       <View style={[styles.cardBorder, {borderColor: color}]}></View>
     </View>
