@@ -20,10 +20,7 @@ const question = <FontAwesome name='question' size={70} color='#F6FFF8' />
 export default function GameScreen({ navigation }) {
 	const [isPressed, setIsPressed] = useState(true)
 	const [name, setName] = useState("")
-	function handlePress(name) {
-		setName(name)
-		setIsPressed(false)
-	}
+	
 	return isPressed ? (
 		<View style={styles.container}>
 			<GameHeader />

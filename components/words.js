@@ -836,8 +836,11 @@ export const data = {
     las:{
         pl: "las",
         eng: "forest",
-        link: require("../assets/zdjecia/las.png"),
-        rodzaj: "rzeczownik"
+
+        link: require("../assets/img/las.png"),
+        rzodzaj: "rzeczownik"
+
+
     },
     ulica:{
         pl: "ulica",
@@ -1094,85 +1097,71 @@ export const data = {
     do_widzenia:{
         pl: "do_widzenia",
         eng: "goodbye",
-        link: "",
         rodzaj: "wyrażenie"
     },
     hej:{
         pl: "hej",
         eng: "hey",
-        link: "",
         rodzaj: "wyrażenie"
     },
     dziękuje:{
         pl: "dziękuje",
         eng: "thank you",
-        link: "",
         rodzaj: "wyrażenie"
     },
     przepraszam:{
         pl: "przepraszam",
         eng: "I'm sorry",
-        link: "",
         rodzaj: "wyrażenie"
     },
     jak_się_czujesz:{
         pl: "jak_się_czujesz",
         eng: "How do you feel?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     Która_jest_godzina:{
         pl: "Która_jest_godzina",
         eng: "What's the time?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     Jak_dojdę_do:{
         pl: "Jak_dojdę_do",
         eng: "How can I get to...?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     Gdzie_znajdę:{
         pl: "Gdzie_znajdę",
         eng: "Where can I find...?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     możesz_mi_pomóc:{
         pl: "możesz_mi_pomóc",
         eng: "Could you help me?",
-        link: "",
         rodzaj: "wyrażenie"
     },
     potrzebuje_pomocy:{
         pl: "potrzebuje_pomocy",
         eng: "I need help.",
-        link: "",
         rodzaj: "wyrażenie"
     },
     dlaczego:{
         pl: "dlaczego",
         eng: "why",
-        link: "",
         rodzaj: "wyrażenie"
     },
     jak:{
         pl: "jak",
         eng: "how",
-        link: "",
         rodzaj: "wyrażenie"
     },
     gdzie:{
         pl: "gdzie",
         eng: "where",
-        link: "",
         rodzaj: "wyrażenie"
     },
     po_co:{
         pl: "po_co",
         eng: "what for",
-        link: "",
         rodzaj: "wyrażenie"
     }
 
