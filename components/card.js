@@ -8,13 +8,14 @@ export default function Card({text, img, color='#FB5607', size=60}) {
   
   const width = size
   const height = size * 1.4
-  const fontSize = size / 4.5
+  const fontSize = size / 5
+  const footerHeight = size / 3
   
   return (
     <View style={[styles.card, {width: width, minHeight: height}]}>
       <Image source={img} style={styles.cardImg} />
-      <View style={[styles.cardFooter, {width: '100%'}]}>
-        <Text numberOfLines={1} style={[styles.cardText, {fontSize: fontSize}]}>{text}</Text>
+      <View style={[styles.cardFooter, {width: '100%', minHeight: footerHeight}]}>
+        <Text adjustsFontSizeToFit={true}  numberOfLines={1} style={[styles.cardText, {fontSize: fontSize}]}>{text}</Text>
       </View>
       <View style={[styles.cardBorder, {borderColor: color}]}></View>
     </View>
@@ -26,7 +27,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
     backgroundColor: '#EAF4F4',
     borderRadius: 12,
-    // flex: 1,
+    flex: 1,
     marginBottom: 10,
   },
   cardFooter: {
@@ -43,6 +44,8 @@ const styles = StyleSheet.create({
     color: '#6B9080',
     maxWidth: '100%',
     fontFamily: 'Itim',
+    paddingLeft: 5,
+    paddingRight: 5,
   },
   cardBorder: {
     borderStyle: 'solid',

@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	gameName: {
+		fontFamily: 'Itim',
 		marginTop: 20,
 		marginBottom: 20,
 		fontSize: 20,

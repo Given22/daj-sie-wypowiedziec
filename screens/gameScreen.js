@@ -31,20 +31,20 @@ export default function GameScreen({ navigation }) {
 				<Game
 					name='Zgadywanka'
 					icon={question}
-					handle={() => navigation.navigate("Guess")}
+					handle={() => navigation.navigate("Zgadywanka")}
 				/>
 				<Game
 					name='Układanka'
 					icon={puzzle}
-					handle={() => navigation.navigate("Puzzle")}
+					handle={() => navigation.navigate("Układanka")}
 				/>
 			</View>
 			<View style={styles.achievementsContainer}>
-				<Text style={styles.achievements}>Osiągnięcia</Text>
-				<Text style={styles.streak}>Dni z rzędu: 2</Text>
+				<Text style={[styles.achievements, styles.font]}>Osiągnięcia</Text>
+				<Text style={[styles.streak, styles.font]}>Dni z rzędu: 2</Text>
 			</View>
 			<View style={styles.trophyContainer}>
-				<Text style={styles.trophy}>Trofea</Text>
+				<Text style={[styles.streak, styles.font]}>Trofea</Text>
 			</View>
 		</View>
 	) : name === "zgadywanka" ? (
@@ -91,11 +91,11 @@ const styles = StyleSheet.create({
 		fontSize: 24,
 		color: "#A4C3B2",
 	},
-	trophy: {
-		fontSize: 32,
-		color: "#A4C3B2",
-	},
+
 	trophyContainer: {
 		paddingTop: 20,
+	},
+	font: {
+		fontFamily: "Itim",
 	},
 })
