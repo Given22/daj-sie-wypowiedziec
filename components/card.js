@@ -4,12 +4,17 @@ import { StyleSheet, Text, View, Button, ScrollView, Image } from 'react-native'
 
 import { AntDesign } from '@expo/vector-icons'; 
 
-export default function Card({text, img, color='#FB5607', size}) {
+export default function Card({text, img, color='#FB5607', size=60}) {
+  
+  const width = size
+  const height = size * 1.4
+  const fontSize = size / 4.5
+  
   return (
-    <View style={styles.card}>
+    <View style={[styles.card, {width: width, height: height}]}>
       <Image source={img} style={styles.cardImg} />
-      <View style={styles.cardFooter}>
-        <Text numberOfLines={1} style={styles.cardText}>{text}</Text>
+      <View style={[styles.cardFooter, {width: width}]}>
+        <Text numberOfLines={1} style={[styles.cardText, {fontSize: fontSize}]}>{text}</Text>
       </View>
       <View style={[styles.cardBorder, {borderColor: color}]}></View>
     </View>
@@ -18,8 +23,6 @@ export default function Card({text, img, color='#FB5607', size}) {
 
 const styles = StyleSheet.create({
   card: {
-    minWidth: 65,
-    height: 90,
     marginRight: 10,
     backgroundColor: '#EAF4F4',
     borderRadius: 12,
@@ -28,7 +31,6 @@ const styles = StyleSheet.create({
   cardFooter: {
     position: 'absolute',
     bottom: 0,
-    minWidth: 65,
     alignItems: 'center',
     justifyContent: 'center',
     paddingBottom: 3,
@@ -37,7 +39,6 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 12,
   },
   cardText: {
-    fontSize: 12,
     color: '#6B9080',
     maxWidth: '100%',
     fontFamily: 'Itim',
