@@ -69,6 +69,7 @@ export default function Card({ text, type, color = "#FB5607", size = 60 }) {
 const styles = StyleSheet.create({
 	card: {
 		marginRight: 10,
+		marginLeft: 10,
 		backgroundColor: "#EAF4F4",
 		borderRadius: 12,
 		marginBottom: 10,
